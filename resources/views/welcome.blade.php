@@ -39,12 +39,12 @@
                 <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
                     <div class="content">
                         <h3>Who We Are</h3>
-                        <h2>PT Kokoh Kuat Terpercaya (PT. KKT) adalah salah satu perusahaan distributor Semen Indonesia yang
-                            memasarkan produk Semen Tonasa.
+                        <h2>PT Kokoh Kuat Terpercaya (PT. KKT)
                         </h2>
                         <p>
-                            Berdiri sejak tanggal 29 Desember 2014 sesuai dengan akte pendirian No 93 tgl 29 Desember 2014
-                            di Notaris Dr. Abdul Muis SH MH di Makassar.
+                            PT. KKT adalah salah satu perusahaan distributor Semen Indonesia yang
+                            memasarkan produk Semen Tonasa. Berdiri sejak tanggal 29 Desember 2014 sesuai dengan akte
+                            pendirian No 93 tgl 29 Desember 2014 di Notaris Dr. Abdul Muis SH MH di Makassar.
                         </p>
                         <div class="text-center text-lg-start">
                             <a href="#"
@@ -81,7 +81,10 @@
                     <div class="box">
                         <img src="{{ asset('/tema/img/values-1.png') }}" class="img-fluid" alt="">
                         <h3>Ad cupiditate sed est odio</h3>
-                        <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
+                        <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id. Lorem
+                            ipsum dolor, sit amet consectetur adipisicing elit. Enim porro, accusamus quaerat, doloremque
+                            cum nam quasi hic et tenetur ratione, tempore numquam ullam voluptatem. Ducimus, dicta ipsam!
+                            Laudantium, id perspiciatis.</p>
                     </div>
                 </div>
 
@@ -89,7 +92,10 @@
                     <div class="box">
                         <img src="{{ asset('/tema/img/values-2.png') }}" class="img-fluid" alt="">
                         <h3>Voluptatem voluptatum alias</h3>
-                        <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
+                        <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non. Lorem
+                            ipsum dolor sit amet consectetur adipisicing elit. Provident minus repellat quam voluptas
+                            voluptatibus quo quia ex quos temporibus molestias magni deleniti dolores atque voluptate, natus
+                            excepturi reiciendis iure dolorem.</p>
                     </div>
                 </div>
 
@@ -97,7 +103,10 @@
                     <div class="box">
                         <img src="{{ asset('/tema/img/values-3.png') }}" class="img-fluid" alt="">
                         <h3>Fugit cupiditate alias nobis.</h3>
-                        <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
+                        <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi. Lorem
+                            ipsum dolor sit amet consectetur adipisicing elit. Explicabo rem accusantium eaque hic
+                            laboriosam velit deserunt nihil dolor sit officia. Rerum ad cumque reiciendis cum, omnis totam
+                            corrupti! Ad, esse.</p>
                     </div>
                 </div>
 
@@ -108,55 +117,59 @@
     </section><!-- End Values Section -->
 
     <!-- ======= Counts Section ======= -->
-    {{-- <section id="counts" class="counts">
-    <div class="container" data-aos="fade-up">
+    <section id="counts" class="counts">
+        <div class="container" data-aos="fade-up">
 
-        <div class="row gy-4">
+            <div class="row gy-4">
 
-            <div class="col-lg-3 col-md-6">
-                <div class="count-box">
-                    <i class="bi bi-emoji-smile"></i>
-                    <div>
-                        <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-                        <p>Happy Clients</p>
+                <div class="col-lg-3 col-md-6">
+                    <div class="count-box">
+                        <i class="bi bi-emoji-smile"></i>
+                        <div>
+                            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Happy Clients</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-lg-3 col-md-6">
-                <div class="count-box">
-                    <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
-                    <div>
-                        <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-                        <p>Projects</p>
+                <div class="col-lg-3 col-md-6">
+                    <div class="count-box">
+                        <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
+                        <div>
+                            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Projects</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-lg-3 col-md-6">
-                <div class="count-box">
-                    <i class="bi bi-headset" style="color: #15be56;"></i>
-                    <div>
-                        <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-                        <p>Hours Of Support</p>
+                <div class="col-lg-3 col-md-6">
+                    <div class="count-box">
+                        <i class="bi bi-headset" style="color: #15be56;"></i>
+                        <div>
+                            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Hours Of Support</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-lg-3 col-md-6">
-                <div class="count-box">
-                    <i class="bi bi-people" style="color: #bb0852;"></i>
-                    <div>
-                        <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-                        <p>Hard Workers</p>
+                <div class="col-lg-3 col-md-6">
+                    <div class="count-box">
+                        <i class="bi bi-people" style="color: #bb0852;"></i>
+                        <div>
+                            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Hard Workers</p>
+                        </div>
                     </div>
                 </div>
+
             </div>
 
         </div>
-
-    </div>
-</section><!-- End Counts Section --> --}}
+    </section><!-- End Counts Section -->
 
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
@@ -264,8 +277,9 @@
                         </div><!-- End Tab 1 Content -->
 
                         <div class="tab-pane fade show" id="tab2">
-                            <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente
-                                atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia ipsa quidem laudantium iste
+                                voluptatem blanditiis voluptates quasi earum veritatis, pariatur fugit suscipit odit, est
+                                quisquam itaque. Deserunt porro reiciendis blanditiis.</p>
                             <div class="d-flex align-items-center mb-2">
                                 <i class="bi bi-check2"></i>
                                 <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
@@ -475,8 +489,8 @@
 
                 <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                     <div class="box">
-                        <h3 style="color: #07d5c0;">Free Plan</h3>
-                        <div class="price"><sup>$</sup>0<span> / mo</span></div>
+                        <h3 style="color: #07d5c0;">Semen Tonasa</h3>
+                        <div class="price">50<span>kg</span></div>
                         <img src="{{ asset('/tema/img/pricing-free.png') }}" class="img-fluid" alt="">
                         <ul>
                             <li>Aida dere</li>
@@ -491,9 +505,9 @@
 
                 <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
                     <div class="box">
-                        <span class="featured">Featured</span>
-                        <h3 style="color: #65c600;">Starter Plan</h3>
-                        <div class="price"><sup>$</sup>19<span> / mo</span></div>
+                        <span class="featured">Best Seller</span>
+                        <h3 style="color: #65c600;">Semen Tonasa</h3>
+                        <div class="price">40<span>kg</span></div>
                         <img src="{{ asset('/tema/img/pricing-starter.png') }}" class="img-fluid" alt="">
                         <ul>
                             <li>Aida dere</li>
@@ -508,8 +522,8 @@
 
                 <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
                     <div class="box">
-                        <h3 style="color: #ff901c;">Business Plan</h3>
-                        <div class="price"><sup>$</sup>29<span> / mo</span></div>
+                        <h3 style="color: #ff901c;">Semen Dynamix</h3>
+                        <div class="price">50<span>kg</span></div>
                         <img src="{{ asset('/tema/img/pricing-business.png') }}" class="img-fluid" alt="">
                         <ul>
                             <li>Aida dere</li>
@@ -524,8 +538,8 @@
 
                 <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
                     <div class="box">
-                        <h3 style="color: #ff0071;">Ultimate Plan</h3>
-                        <div class="price"><sup>$</sup>49<span> / mo</span></div>
+                        <h3 style="color: #ff0071;">Semen Dynamix</h3>
+                        <div class="price">40<span>kg</span></div>
                         <img src="{{ asset('/tema/img/pricing-ultimate.png') }}" class="img-fluid" alt="">
                         <ul>
                             <li>Aida dere</li>
@@ -691,11 +705,11 @@
                     <ul id="portfolio-flters">
                         <li data-filter="*" class="filter-active">All</li>
                         <li data-filter=".filter-bone">Bone</li>
-                        <li data-filter=".filter-soppeng">Soppeng</li>
-                        <li data-filter=".filter-wajo">Wajo</li>
                         <li data-filter=".filter-parepare">Parepare</li>
                         <li data-filter=".filter-pinrang">Pinrang</li>
                         <li data-filter=".filter-sidrap">Sidrap</li>
+                        <li data-filter=".filter-soppeng">Soppeng</li>
+                        <li data-filter=".filter-wajo">Wajo</li>
                     </ul>
                 </div>
             </div>
@@ -993,10 +1007,10 @@
                         <div class="member-img">
                             <img src="{{ asset('/tema/img/team/team-1.jpg') }}" class="img-fluid" alt="">
                             <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
+                                <a href="" class="twitter"><i class="bi bi-twitter"></i></a>
+                                <a href="" class="facebook"><i class="bi bi-facebook"></i></a>
+                                <a href="" class="instagram"><i class="bi bi-instagram"></i></a>
+                                <a href="" class="linkedin"><i class="bi bi-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="member-info">
@@ -1187,6 +1201,13 @@
                         </div>
                         <div class="col-md-6">
                             <div class="info-box">
+                                <i class="bi bi-clock"></i>
+                                <h3>Open Hours</h3>
+                                <p>Senin - Jum'at<br>08:00 - 16:30<br>Sabtu<br>08:00 - 12:00</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="info-box">
                                 <i class="bi bi-telephone"></i>
                                 <h3>Call Us</h3>
                                 <p>(0411) 8960918</p>
@@ -1197,13 +1218,6 @@
                                 <i class="bi bi-envelope"></i>
                                 <h3>Email Us</h3>
                                 <p>kokohkuat.terpercaya@yahoo.com</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="info-box">
-                                <i class="bi bi-clock"></i>
-                                <h3>Open Hours</h3>
-                                <p>Monday - Friday<br>9:00AM - 05:00PM</p>
                             </div>
                         </div>
                     </div>

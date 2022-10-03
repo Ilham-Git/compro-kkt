@@ -1444,15 +1444,27 @@ section {
 
 .team .member .social a {
   transition: color 0.3s;
-  color: rgba(1, 41, 112, 0.5);
+  color: rgba(18, 112, 1, 0.3);
   margin: 15px 12px;
   display: block;
   line-height: 0;
   text-align: center;
 }
 
-.team .member .social a:hover {
-  color: rgba(1, 41, 112, 0.8);
+.team .member .social .twitter:hover {
+  color: #55ACEE;
+}
+
+.team .member .social .facebook:hover {
+  color: #3B5997;
+}
+
+.team .member .social .instagram:hover {
+  color: #BE31A2;
+}
+
+.team .member .social .linkedin:hover {
+  color: #006995;
 }
 
 .team .member .social i {
@@ -2332,7 +2344,7 @@ section {
 .footer .footer-top .social-links a {
   font-size: 20px;
   display: inline-block;
-  color: rgba(1, 41, 112, 0.5);
+  color: rgba(21, 112, 1, 0.4);
   line-height: 0;
   margin-right: 10px;
   transition: 0.3s;
