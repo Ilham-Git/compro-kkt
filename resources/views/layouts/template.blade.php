@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>{{ $title }} - KKT</title>
+    <title>@yield('judul') - KKT</title>
     <meta content="" name="description">
 
     <meta content="" name="keywords">
@@ -27,8 +27,12 @@
     <link href="{{ asset('/tema/vendor/remixicon/remixicon.css') }}" rel="stylesheet">
     <link href="{{ asset('/tema/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/5f23f83c10.js" crossorigin="anonymous"></script>
+
     <!-- Template Main CSS File -->
     <link href="{{ asset('/tema/css/style.css') }}" rel="stylesheet">
+    @yield('ekstracss')
 
 </head>
 
@@ -39,18 +43,16 @@
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
             <a href="{{ url('/') }}" class="logo d-flex align-items-center">
-                <img src="{{ asset('/tema/img/logo1.png') }}" alt="">
-                <span> KOKOH KUAT TERPERCAYA</span>
+                <img src="{{ asset('/tema/img/logo.png') }}" alt="">
+                <span>KOKOH KUAT TERPERCAYA</span>
             </a>
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto {{ $title === 'Home' ? 'active' : '' }}"
-                            href="{{ url('/') }}">Home</a></li>
+                    <li><a class="nav-link scrollto active" href="{{ url('/') }}">Home</a></li>
                     <li><a class="nav-link scrollto" href="{{ url('/') }}#about">About</a></li>
                     <li><a class="nav-link scrollto" href="{{ url('/') }}#services">Services</a></li>
                     <li><a class="nav-link scrollto" href="{{ url('/') }}#pricing">Pricing</a></li>
-                    <li><a class="nav-link scrollto" href="{{ url('/') }}#contact">Contact</a></li>
                     <li class="dropdown"><a href="#"><span>Other</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url('/') }}#faq">FAQ</a></li>
@@ -65,7 +67,12 @@
                             <li><a href="{{ url('/pengumuman') }}">Pengumuman</a></li>
                         </ul>
                     </li>
-                    <li><a class="getstarted scrollto" href="#">Login</a></li>
+                    <li><a class="nav-link scrollto" href="{{ url('/') }}#contact">Contact</a></li>
+                    @if (Auth::check())
+                        <li><a class="getstarted scrollto" href="{{ url('/logout') }}">Logout</a></li>
+                    @else
+                        <li><a class="getstarted scrollto" href="{{ url('/login') }}">Login</a></li>
+                    @endif
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -87,35 +94,39 @@
                 <div class="row gy-4">
                     <div class="col-lg-5 col-md-12 footer-info">
                         <a href="{{ url('/') }}" class="logo d-flex align-items-center">
-                            <img src="{{ asset('/tema/img/logo1.png') }}" alt="">
+                            <img src="{{ asset('/tema/img/logo.png') }}" alt="">
                             <span>KOKOH KUAT TERPERCAYA</span>
                         </a>
                         <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita
                             valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
                         <div class="social-links mt-3">
-                            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://www.twitter.com/" class="twitter"><i class="bi bi-twitter"></i></a>
+                            <a href="https://www.facebook.com/" class="facebook"><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/" class="instagram"><i class="bi bi-instagram"></i></a>
+                            <a href="https://www.linkedin.com/" class="linkedin"><i class="bi bi-linkedin"></i></a>
                         </div>
                     </div>
 
                     <div class="col-lg-2 col-6 footer-links">
                         <h4>Useful Links</h4>
                         <ul>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}">Home</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}#about">About us</a>
+                            </li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}#services">Services</a>
+                            </li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
                         </ul>
                     </div>
 
                     <div class="col-lg-2 col-6 footer-links">
-                        <h4>Our Services</h4>
+                        <h4>Our Product</h4>
                         <ul>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Semen Tonasa</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Semen Dynamix</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}#pricing">Semen
+                                    Tonasa</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}#pricing">Semen
+                                    Dynamix</a></li>
                         </ul>
                     </div>
 
@@ -142,10 +153,6 @@
                 &copy; Copyright <strong><span>KOKOH KUAT TERPERCAYA</span></strong>. All Rights Reserved
             </div>
             <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you purchased the pro version. -->
-                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/KOKOH KUAT TERPERCAYA-bootstrap-startup-template/ -->
                 Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
             </div>
         </div>
@@ -165,6 +172,7 @@
 
     <!-- Template Main JS File -->
     <script src="{{ asset('/tema/js/main.js') }}"></script>
+    @yield('ekstrajs')
 
 </body>
 

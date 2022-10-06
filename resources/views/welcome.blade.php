@@ -1,5 +1,9 @@
 @extends('layouts.template')
 
+@section('judul')
+    Home
+@endsection
+
 @section('hero')
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="hero d-flex align-items-center">
@@ -491,10 +495,8 @@
                     <div class="box">
                         <h3 style="color: #07d5c0;">Semen Tonasa</h3>
                         <div class="price">50<span>kg</span></div>
-                        <img src="{{ asset('/tema/img/pricing-free.png') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('/tema/img/Tonasa50.png') }}" class="img-fluid" alt="">
                         <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
                             <li>Nulla at volutpat dola</li>
                             <li class="na">Pharetra massa</li>
                             <li class="na">Massa ultricies mi</li>
@@ -508,10 +510,8 @@
                         <span class="featured">Best Seller</span>
                         <h3 style="color: #65c600;">Semen Tonasa</h3>
                         <div class="price">40<span>kg</span></div>
-                        <img src="{{ asset('/tema/img/pricing-starter.png') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('/tema/img/Tonasa40.png') }}" class="img-fluid" alt="">
                         <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
                             <li>Nulla at volutpat dola</li>
                             <li>Pharetra massa</li>
                             <li class="na">Massa ultricies mi</li>
@@ -524,10 +524,8 @@
                     <div class="box">
                         <h3 style="color: #ff901c;">Semen Dynamix</h3>
                         <div class="price">50<span>kg</span></div>
-                        <img src="{{ asset('/tema/img/pricing-business.png') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('/tema/img/Dynamix50.png') }}" class="img-fluid" alt="">
                         <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
                             <li>Nulla at volutpat dola</li>
                             <li>Pharetra massa</li>
                             <li>Massa ultricies mi</li>
@@ -540,10 +538,8 @@
                     <div class="box">
                         <h3 style="color: #ff0071;">Semen Dynamix</h3>
                         <div class="price">40<span>kg</span></div>
-                        <img src="{{ asset('/tema/img/pricing-ultimate.png') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('/tema/img/Dynamix40.png') }}" class="img-fluid" alt="">
                         <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
                             <li>Nulla at volutpat dola</li>
                             <li>Pharetra massa</li>
                             <li>Massa ultricies mi</li>
@@ -1027,10 +1023,10 @@
                         <div class="member-img">
                             <img src="{{ asset('/tema/img/team/team-2.jpg') }}" class="img-fluid" alt="">
                             <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
+                                <a href="" class="twitter"><i class="bi bi-twitter"></i></a>
+                                <a href="" class="facebook"><i class="bi bi-facebook"></i></a>
+                                <a href="" class="instagram"><i class="bi bi-instagram"></i></a>
+                                <a href="" class="linkedin"><i class="bi bi-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="member-info">
@@ -1047,10 +1043,10 @@
                         <div class="member-img">
                             <img src="{{ asset('/tema/img/team/team-3.jpg') }}" class="img-fluid" alt="">
                             <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
+                                <a href="" class="twitter"><i class="bi bi-twitter"></i></a>
+                                <a href="" class="facebook"><i class="bi bi-facebook"></i></a>
+                                <a href="" class="instagram"><i class="bi bi-instagram"></i></a>
+                                <a href="" class="linkedin"><i class="bi bi-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="member-info">
@@ -1067,10 +1063,10 @@
                         <div class="member-img">
                             <img src="{{ asset('/tema/img/team/team-4.jpg') }}" class="img-fluid" alt="">
                             <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
+                                <a href="" class="twitter"><i class="bi bi-twitter"></i></a>
+                                <a href="" class="facebook"><i class="bi bi-facebook"></i></a>
+                                <a href="" class="instagram"><i class="bi bi-instagram"></i></a>
+                                <a href="" class="linkedin"><i class="bi bi-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="member-info">
@@ -1183,6 +1179,12 @@
                 <h2>Contact</h2>
                 <p>Contact Us</p>
             </header>
+
+            <div class="mb-3">
+                <iframe style="border:0; width: 100%; height: 350px;"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.734409534322!2d119.4440487147639!3d-5.146392453465987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee2c953e021cb%3A0xa5b7f19d36484df5!2sPT%20KOKOH%20KUAT%20TERPERCAYA!5e0!3m2!1sid!2sid!4v1664845165097!5m2!1sid!2sid"
+                    frameborder="0" allowfullscreen></iframe>
+            </div><!-- End Google Maps -->
 
             <div class="row gy-4">
 

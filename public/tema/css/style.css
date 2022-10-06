@@ -1,9 +1,58 @@
-/**
-* Template Name: FlexStart - v1.11.0
-* Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+/*--------------------------------------------------------------
+# Login
+--------------------------------------------------------------*/
+.customHeading {
+  color:#8ac020;
+}
+.custom-form-group label {
+  color:#8ac020;
+  font-size:13px;
+  font-weight:bold;
+  letter-spacing:2px;
+}
+.custom-form-group span {
+  width:32px;
+  border-bottom:1px solid #8ac020;
+  vertical-align:middle;
+  color:#8ac020;
+  display:inline;
+}
+.custom-form-group input {
+  width : calc(100% - 32px);
+  border:none;
+  border-bottom:1px solid #8ac020;
+  box-sizing:content-box;
+  outline:none;
+}
+.custom-btn {
+  border-radius:32px;
+  background : #8ac020;
+  border:2px solid transparent;
+  color:#fff;
+  height:48px;
+}
+.custom-btn:hover {
+  background : #fff;
+  border:none;
+  border:2px solid #8ac020;
+  color:#8ac020;
+}
+#formPanel {
+  min-width:280px;
+  max-width:320px;
+  width:100%;
+  margin:0 auto;
+}
+.objectFit {
+  object-fit:cover;
+  width:100%;
+  max-width:320px;
+  min-height:60vh;
+  margin:0 auto
+}
+#showCursor {
+  cursor:pointer
+}
 
 /*--------------------------------------------------------------
 # General
@@ -192,7 +241,7 @@ section {
 }
 
 .header .logo span {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 700;
   letter-spacing: 1px;
   color: #32450C;
@@ -264,6 +313,7 @@ section {
   color: #fff;
   background: #70f359;
 }
+
 
 .navbar .dropdown ul {
   display: block;
@@ -2326,7 +2376,7 @@ section {
 }
 
 .footer .footer-top .footer-info .logo span {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 1px;
   color: #32450C;
