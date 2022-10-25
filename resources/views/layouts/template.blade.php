@@ -15,9 +15,7 @@
     <link href="{{ asset('/tema/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="{{ asset('/tema/vendor/aos/aos.css') }}" rel="stylesheet">
@@ -56,8 +54,7 @@
                     <li class="dropdown"><a href="#"><span>Other</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url('/') }}#faq">FAQ</a></li>
-                            <li class="dropdown"><a href="#"><span>Portfolio</span> <i
-                                        class="bi bi-chevron-right"></i></a>
+                            <li class="dropdown"><a href="#"><span>Portfolio</span> <i class="bi bi-chevron-right"></i></a>
                                 <ul>
                                     <li><a href="{{ url('/') }}#portfolio">Gudang</a></li>
                                     <li><a href="{{ url('/') }}#team">Team</a></li>
@@ -69,9 +66,9 @@
                     </li>
                     <li><a class="nav-link scrollto" href="{{ url('/') }}#contact">Contact</a></li>
                     @if (Auth::check())
-                        <li><a class="getstarted scrollto" href="{{ url('/logout') }}">Logout</a></li>
+                    <li><a class="getstarted scrollto" href="{{ url('/logout') }}">Logout</a></li>
                     @else
-                        <li><a class="getstarted scrollto" href="{{ url('/login') }}">Login</a></li>
+                    <li><a class="getstarted scrollto" href="{{ url('/login') }}">Login</a></li>
                     @endif
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -97,12 +94,11 @@
                             <img src="{{ asset('/tema/img/logo.png') }}" alt="">
                             <span>KOKOH KUAT TERPERCAYA</span>
                         </a>
-                        <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita
-                            valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                        <p>DISTRIBUTOR SEMEN INDONESIA</p>
                         <div class="social-links mt-3">
                             <a href="https://www.twitter.com/" class="twitter"><i class="bi bi-twitter"></i></a>
                             <a href="https://www.facebook.com/" class="facebook"><i class="bi bi-facebook"></i></a>
-                            <a href="https://www.instagram.com/" class="instagram"><i class="bi bi-instagram"></i></a>
+                            <a href="https://www.instagram.com/kokohkuat/" class="instagram"><i class="bi bi-instagram"></i></a>
                             <a href="https://www.linkedin.com/" class="linkedin"><i class="bi bi-linkedin"></i></a>
                         </div>
                     </div>
@@ -158,8 +154,7 @@
         </div>
     </footer><!-- End Footer -->
 
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-            class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
     <script src="{{ asset('/tema/vendor/purecounter/purecounter_vanilla.js') }}"></script>
