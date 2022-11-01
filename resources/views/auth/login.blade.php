@@ -20,7 +20,7 @@
 @endsection
 
 @section('main')
-    <section>
+    <section id="login" class="login">
         <div class="min-vh-100 d-flex align-items-center">
             <div class="container">
                 <div class="row">
@@ -39,7 +39,7 @@
                             <div class="alert alert-danger">
                                 <ul>
                                     @foreach ($errors->all() as $error)
-                                        <li>{{ $error }} </li>
+                                        <li>{{ $error }}</li>
                                     @endforeach
                                 </ul>
                             </div>
@@ -47,7 +47,7 @@
                         <div class="shadow-lg">
                             <div class="d-flex align-items-center">
                                 <div class="d-none d-md-block d-lg-block">
-                                    <img src="{{ asset('/tema/img/hero-img.png') }}" class="objectFit" />
+                                    <img src="{{ asset('/tema/img/login.jpg') }}" class="objectFit" />
                                 </div>
                                 <div class="p-4" id="formPanel">
                                     <div class="text-center mb-5">

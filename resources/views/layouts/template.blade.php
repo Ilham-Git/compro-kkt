@@ -68,11 +68,19 @@
                         </ul>
                     </li>
                     <li><a class="nav-link scrollto" href="{{ url('/') }}#contact">Contact</a></li>
-                    @if (Auth::check())
-                        <li><a class="getstarted scrollto" href="{{ url('/logout') }}">Logout</a></li>
+                    <li>
+                        <a class="getstarted scrollto" href="{{ url('/login') }}">Login</a>
+                    </li>
+                    {{-- @if (Auth::check())
+                        <li><a class="getstarted scrollto" href="{{ url('/index') }}">Dashboard</a></li>
+                        <li>
+                            <a class="getstarted scrollto bg-danger" href="{{ url('/logout') }}">Logout</a>
+                        </li>
                     @else
-                        <li><a class="getstarted scrollto" href="{{ url('/login') }}">Login</a></li>
-                    @endif
+                        <li>
+                            <a class="getstarted scrollto" href="{{ url('/login') }}">Login</a>
+                        </li>
+                    @endif --}}
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->

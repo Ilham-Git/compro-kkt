@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PublicController;
+use App\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,26 +15,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome', [
-        "title" => "Home"
-    ]);
-});
+Route::get('/', [PublicController::class, 'index']);
+Route::get('/berita', [PublicController::class, 'berita']);
+Route::get('/pengumuman', [PublicController::class, 'pengumuman']);
 
-Route::get('/berita', function () {
-    return view('berita', [
-        "title" => "Berita"
-    ]);
-});
-
-Route::get('/pengumuman', function () {
-    return view('pengumuman', [
-        "title" => "Pengumuman"
-    ]);
+Route::group(['middleware' => ['auth'], 'prefix' => 'dashboard'], function () {
+    Route::get('/', [DashboardController::class, 'index']);
 });
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('dashboard.index');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 require __DIR__ . '/auth.php';

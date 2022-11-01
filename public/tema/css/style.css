@@ -1,6 +1,10 @@
 /*--------------------------------------------------------------
 # Login
 --------------------------------------------------------------*/
+.login h1{
+  font-weight: bold;
+}
+
 .customHeading {
   color:#8ac020;
 }
@@ -241,9 +245,9 @@ section {
 }
 
 .header .logo span {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   color: #32450C;
   font-family: "Nunito", sans-serif;
   margin-top: 3px;
