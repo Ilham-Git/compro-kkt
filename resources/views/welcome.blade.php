@@ -1,7 +1,7 @@
 @extends('layouts.template')
 
 @section('judul')
-    Home
+    Beranda
 @endsection
 
 @section('hero')
@@ -18,7 +18,7 @@
                         <div class="text-center text-lg-start">
                             <a href="{{ url('/') }}#about"
                                 class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                                <span>Get Started</span>
+                                <span>Mulai</span>
                                 <i class="bi bi-arrow-right"></i>
                             </a>
                         </div>
@@ -42,7 +42,7 @@
 
                 <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
                     <div class="content">
-                        <h3>Who We Are</h3>
+                        <h3>Tentang Kami</h3>
                         <h2>PT Kokoh Kuat Terpercaya (PT. KKT)
                         </h2>
                         <p>
@@ -53,7 +53,7 @@
                         <div class="text-center text-lg-start">
                             <a href="#"
                                 class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                                <span>Read More</span>
+                                <span>Selengkapnya</span>
                                 <i class="bi bi-arrow-right"></i>
                             </a>
                         </div>
@@ -75,8 +75,8 @@
         <div class="container" data-aos="fade-up">
 
             <header class="section-header">
-                <h2>Our Values</h2>
-                <p>Odit est perspiciatis laborum et dicta</p>
+                <h2>Keunggulan Kami</h2>
+                <p>Keunggulan Yang Kami Tawarkan</p>
             </header>
 
             <div class="row">
@@ -121,7 +121,7 @@
     </section><!-- End Values Section -->
 
     <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
+    {{-- <section id="counts" class="counts">
         <div class="container" data-aos="fade-up">
 
             <div class="row gy-4">
@@ -173,7 +173,7 @@
             </div>
 
         </div>
-    </section><!-- End Counts Section -->
+    </section><!-- End Counts Section --> --}}
 
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
@@ -328,7 +328,7 @@
             </div><!-- End Feature Tabs -->
 
             <!-- Feature Icons -->
-            <div class="row feature-icons" data-aos="fade-up">
+            {{-- <div class="row feature-icons" data-aos="fade-up">
                 <h3>Ratione mollitia eos ab laudantium rerum beatae quo</h3>
 
                 <div class="row">
@@ -395,7 +395,7 @@
 
                 </div>
 
-            </div><!-- End Feature Icons -->
+            </div><!-- End Feature Icons --> --}}
 
         </div>
 
@@ -407,8 +407,8 @@
         <div class="container" data-aos="fade-up">
 
             <header class="section-header">
-                <h2>Services</h2>
-                <p>Veritatis et dolores facere numquam et praesentium</p>
+                <h2>Layanan</h2>
+                <p>Pelayanan Yang Kami Tawarkan</p>
             </header>
 
             <div class="row gy-4">
@@ -485,8 +485,8 @@
         <div class="container" data-aos="fade-up">
 
             <header class="section-header">
-                <h2>Pricing</h2>
-                <p>Check our Pricing</p>
+                <h2>Produk</h2>
+                <p>Produk Kami</p>
             </header>
 
             <div class="row gy-4" data-aos="fade-left">
@@ -498,10 +498,10 @@
                         <img src="{{ asset('/tema/img/Tonasa50.png') }}" class="img-fluid" alt="">
                         <ul>
                             <li>Nulla at volutpat dola</li>
-                            <li class="na">Pharetra massa</li>
+                            <li class="na">Pharetrdwaa massa</li>
                             <li class="na">Massa ultricies mi</li>
                         </ul>
-                        <a href="#" class="btn-buy">Buy Now</a>
+                        <a href="{{ url('/') }}#contact" class="btn-buy">Beli Sekarang</a>
                     </div>
                 </div>
 
@@ -516,7 +516,7 @@
                             <li>Pharetra massa</li>
                             <li class="na">Massa ultricies mi</li>
                         </ul>
-                        <a href="#" class="btn-buy">Buy Now</a>
+                        <a href="{{ url('/') }}#contact" class="btn-buy">Beli Sekarang</a>
                     </div>
                 </div>
 
@@ -530,7 +530,7 @@
                             <li>Pharetra massa</li>
                             <li>Massa ultricies mi</li>
                         </ul>
-                        <a href="#" class="btn-buy">Buy Now</a>
+                        <a href="{{ url('/') }}#contact" class="btn-buy">Beli Sekarang</a>
                     </div>
                 </div>
 
@@ -544,7 +544,7 @@
                             <li>Pharetra massa</li>
                             <li>Massa ultricies mi</li>
                         </ul>
-                        <a href="#" class="btn-buy">Buy Now</a>
+                        <a href="{{ url('/') }}#contact" class="btn-buy">Beli Sekarang</a>
                     </div>
                 </div>
 
@@ -554,138 +554,6 @@
 
     </section><!-- End Pricing Section -->
 
-    <!-- ======= F.A.Q Section ======= -->
-    <section id="faq" class="faq">
-
-        <div class="container" data-aos="fade-up">
-
-            <header class="section-header">
-                <h2>F.A.Q</h2>
-                <p>Frequently Asked Questions</p>
-            </header>
-
-            <div class="row">
-                <div class="col-lg-6">
-                    <!-- F.A.Q List 1-->
-                    <div class="accordion accordion-flush" id="faqlist1">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq-content-1">
-                                    Non consectetur a erat nam at lectus urna duis?
-                                </button>
-                            </h2>
-                            <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                                <div class="accordion-body">
-                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non
-                                    curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus
-                                    non.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq-content-2">
-                                    Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
-                                </button>
-                            </h2>
-                            <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                                <div class="accordion-body">
-                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
-                                    velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec
-                                    pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus
-                                    turpis massa tincidunt dui.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq-content-3">
-                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
-                                </button>
-                            </h2>
-                            <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                                <div class="accordion-body">
-                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
-                                    pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum
-                                    tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna
-                                    molestie at elementum eu facilisis sed odio morbi quis
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-
-                    <!-- F.A.Q List 2-->
-                    <div class="accordion accordion-flush" id="faqlist2">
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq2-content-1">
-                                    Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
-                                </button>
-                            </h2>
-                            <div id="faq2-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
-                                <div class="accordion-body">
-                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
-                                    velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec
-                                    pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus
-                                    turpis massa tincidunt dui.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq2-content-2">
-                                    Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
-                                </button>
-                            </h2>
-                            <div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
-                                <div class="accordion-body">
-                                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est
-                                    ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit
-                                    adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq2-content-3">
-                                    Varius vel pharetra vel turpis nunc eget lorem dolor?
-                                </button>
-                            </h2>
-                            <div id="faq2-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
-                                <div class="accordion-body">
-                                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo
-                                    integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc
-                                    eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
-                                    Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus.
-                                    Nibh tellus molestie nunc non blandit massa enim nec.
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section><!-- End F.A.Q Section -->
-
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
 
@@ -693,7 +561,7 @@
 
             <header class="section-header">
                 <h2>Portfolio</h2>
-                <p>Check our latest work</p>
+                <p>Dokumentasi Gudang</p>
             </header>
 
             <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -862,8 +730,140 @@
 
     </section><!-- End Portfolio Section -->
 
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq">
+
+        <div class="container" data-aos="fade-up">
+
+            <header class="section-header">
+                <h2>F.A.Q</h2>
+                <p>Pertanyaan Yang Sering Diajukan</p>
+            </header>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <!-- F.A.Q List 1-->
+                    <div class="accordion accordion-flush" id="faqlist1">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq-content-1">
+                                    Non consectetur a erat nam at lectus urna duis?
+                                </button>
+                            </h2>
+                            <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                                <div class="accordion-body">
+                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non
+                                    curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus
+                                    non.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq-content-2">
+                                    Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                                </button>
+                            </h2>
+                            <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                                <div class="accordion-body">
+                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
+                                    velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec
+                                    pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus
+                                    turpis massa tincidunt dui.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq-content-3">
+                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+                                </button>
+                            </h2>
+                            <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                                <div class="accordion-body">
+                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
+                                    pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum
+                                    tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna
+                                    molestie at elementum eu facilisis sed odio morbi quis
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+
+                    <!-- F.A.Q List 2-->
+                    <div class="accordion accordion-flush" id="faqlist2">
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq2-content-1">
+                                    Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                                </button>
+                            </h2>
+                            <div id="faq2-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                                <div class="accordion-body">
+                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
+                                    velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec
+                                    pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus
+                                    turpis massa tincidunt dui.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq2-content-2">
+                                    Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                                </button>
+                            </h2>
+                            <div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                                <div class="accordion-body">
+                                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est
+                                    ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit
+                                    adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq2-content-3">
+                                    Varius vel pharetra vel turpis nunc eget lorem dolor?
+                                </button>
+                            </h2>
+                            <div id="faq2-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                                <div class="accordion-body">
+                                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo
+                                    integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc
+                                    eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                                    Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus.
+                                    Nibh tellus molestie nunc non blandit massa enim nec.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section><!-- End F.A.Q Section -->
+
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
+    {{-- <section id="testimonials" class="testimonials">
 
         <div class="container" data-aos="fade-up">
 
@@ -984,7 +984,7 @@
 
         </div>
 
-    </section><!-- End Testimonials Section -->
+    </section><!-- End Testimonials Section --> --}}
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team">
@@ -992,8 +992,8 @@
         <div class="container" data-aos="fade-up">
 
             <header class="section-header">
-                <h2>Team</h2>
-                <p>Our hard working team</p>
+                <h2>Tim</h2>
+                <p>Tim Pekerja Keras Kami</p>
             </header>
 
             <div class="row gy-4">
@@ -1085,7 +1085,7 @@
     </section><!-- End Team Section -->
 
     <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
+    {{-- <section id="clients" class="clients">
 
         <div class="container" data-aos="fade-up">
 
@@ -1117,7 +1117,7 @@
             </div>
         </div>
 
-    </section><!-- End Clients Section -->
+    </section><!-- End Clients Section --> --}}
 
     <!-- ======= Recent Blog Posts Section ======= -->
     <section id="recent-blog-posts" class="recent-blog-posts">
@@ -1125,8 +1125,8 @@
         <div class="container" data-aos="fade-up">
 
             <header class="section-header">
-                <h2>Blog</h2>
-                <p>Recent posts form our Blog</p>
+                <h2>Berita</h2>
+                <p>Postingan Berita Terbaru</p>
             </header>
 
             <div class="row">
@@ -1176,8 +1176,8 @@
         <div class="container" data-aos="fade-up">
 
             <header class="section-header">
-                <h2>Contact</h2>
-                <p>Contact Us</p>
+                <h2>Kontak</h2>
+                <p>Hubungi Kami</p>
             </header>
 
             <div class="mb-3">
@@ -1194,7 +1194,7 @@
                         <div class="col-md-6">
                             <div class="info-box">
                                 <i class="bi bi-geo-alt"></i>
-                                <h3>Address</h3>
+                                <h3>Alamat</h3>
                                 <p>Jl. Andi Pangeran Pettarani 2 No. 34A<br>
                                     Kecamatan Panakukang<br>
                                     Makassar, Sulawesi Selatan<br>
@@ -1204,21 +1204,21 @@
                         <div class="col-md-6">
                             <div class="info-box">
                                 <i class="bi bi-clock"></i>
-                                <h3>Open Hours</h3>
+                                <h3>Waktu Buka</h3>
                                 <p>Senin - Jum'at<br>08:00 - 16:30<br>Sabtu<br>08:00 - 12:00</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="info-box">
                                 <i class="bi bi-telephone"></i>
-                                <h3>Call Us</h3>
+                                <h3>Telepon</h3>
                                 <p>(0411) 8960918</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="info-box">
                                 <i class="bi bi-envelope"></i>
-                                <h3>Email Us</h3>
+                                <h3>Email</h3>
                                 <p>kokohkuat.terpercaya@yahoo.com</p>
                             </div>
                         </div>

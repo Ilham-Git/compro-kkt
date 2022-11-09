@@ -49,11 +49,10 @@
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="{{ url('/') }}">Home</a></li>
-                    <li><a class="nav-link scrollto" href="{{ url('/') }}#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="{{ url('/') }}#services">Services</a></li>
-                    <li><a class="nav-link scrollto" href="{{ url('/') }}#pricing">Pricing</a></li>
-                    <li class="dropdown"><a href="#"><span>Other</span> <i class="bi bi-chevron-down"></i></a>
+                    <li><a class="nav-link scrollto active" href="{{ url('/') }}">Beranda</a></li>
+                    <li><a class="nav-link scrollto" href="{{ url('/') }}#about">Tentang</a></li>
+                    <li><a class="nav-link scrollto" href="{{ url('/') }}#pricing">Produk</a></li>
+                    <li class="dropdown"><a href="#"><span>Lainnya</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url('/') }}#faq">FAQ</a></li>
                             <li class="dropdown"><a href="#"><span>Portfolio</span> <i
@@ -67,20 +66,10 @@
                             <li><a href="{{ url('/pengumuman') }}">Pengumuman</a></li>
                         </ul>
                     </li>
-                    <li><a class="nav-link scrollto" href="{{ url('/') }}#contact">Contact</a></li>
+                    <li><a class="nav-link scrollto" href="{{ url('/') }}#contact">Kontak</a></li>
                     <li>
                         <a class="getstarted scrollto" href="{{ url('/login') }}">Login</a>
                     </li>
-                    {{-- @if (Auth::check())
-                        <li><a class="getstarted scrollto" href="{{ url('/index') }}">Dashboard</a></li>
-                        <li>
-                            <a class="getstarted scrollto bg-danger" href="{{ url('/logout') }}">Logout</a>
-                        </li>
-                    @else
-                        <li>
-                            <a class="getstarted scrollto" href="{{ url('/login') }}">Login</a>
-                        </li>
-                    @endif --}}
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -105,8 +94,8 @@
                             <img src="{{ asset('/tema/img/logo.png') }}" alt="">
                             <span>KOKOH KUAT TERPERCAYA</span>
                         </a>
-                        <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita
-                            valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                        <p>Bisnis semen di Indonesia dari tahun ke tahun semakin
+                            meningkat,<br>seiring dengan pembangunan infrastruktur di Indonesia.</p>
                         <div class="social-links mt-3">
                             <a href="https://www.twitter.com/" class="twitter"><i class="bi bi-twitter"></i></a>
                             <a href="https://www.facebook.com/" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -116,12 +105,12 @@
                     </div>
 
                     <div class="col-lg-2 col-6 footer-links">
-                        <h4>Useful Links</h4>
+                        <h4>Link Kami</h4>
                         <ul>
-                            <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}">Home</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}#about">About us</a>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}">Beranda</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}#about">Tentang</a>
                             </li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}#services">Services</a>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}#services">Layanan</a>
                             </li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
@@ -129,7 +118,7 @@
                     </div>
 
                     <div class="col-lg-2 col-6 footer-links">
-                        <h4>Our Product</h4>
+                        <h4>Produk Kami</h4>
                         <ul>
                             <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}#pricing">Semen
                                     Tonasa</a></li>
@@ -139,14 +128,14 @@
                     </div>
 
                     <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-                        <h4>Contact Us</h4>
+                        <h4>Hubungi Kami</h4>
                         <p>
                             Jalan Andi Pangeran Pettarani 2 No. 34A<br>
                             Kecamatan Panakukang<br>
                             Makassar, Sulawesi Selatan<br>
                             90231<br><br>
 
-                            <strong>Phone:</strong> (0411) 8960918<br>
+                            <strong>Telepon:</strong> (0411) 8960918<br>
                             <strong>Email:</strong> kokohkuat.terpercaya@yahoo.com<br>
                         </p>
 

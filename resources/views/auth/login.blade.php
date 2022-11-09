@@ -10,10 +10,10 @@
             var input = document.getElementById('password')
             if (input.type === 'password') {
                 input.type = "text"
-                e.target.className = "fas fa-eye"
+                e.target.className = "fas fa-eye-slash"
             } else {
                 input.type = "password"
-                e.target.className = "fas fa-eye-slash"
+                e.target.className = "fas fa-eye"
             }
         }
     </script>
@@ -66,7 +66,7 @@
                                             <label class="text-uppercase" for="password">Password</label>
                                             <input type="password" name="password" id="password" class="pb-1" required />
                                             <span class="pb-1">
-                                                <i id="showCursor" class="fas fa-eye-slash" aria-hidden="true"
+                                                <i id="showCursor" class="fas fa-eye" aria-hidden="true"
                                                     onclick="showPassword(event)"></i>
                                             </span>
                                         </div>

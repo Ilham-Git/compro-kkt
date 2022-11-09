@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PublicController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\PengumumanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,6 +22,17 @@ Route::get('/pengumuman', [PublicController::class, 'pengumuman']);
 
 Route::group(['middleware' => ['auth'], 'prefix' => 'dashboard'], function () {
     Route::get('/', [DashboardController::class, 'index']);
+    Route::get('/user', [DashboardController::class, 'user']);
+    Route::get('/berita', [DashboardController::class, 'berita']);
+
+    Route::controller(PengumumanController::class)->group(function () {
+        Route::get('/pengumuman', 'index');
+        Route::get('/pengumuman-create', 'save');
+        Route::post('/pengumuman-create', 'create');
+        Route::get('/pengumuman/{id}', 'show');
+        Route::get('/pengumuman-delete/{id}', 'delete');
+        Route::post('/pengumuman/{id}', 'update');
+    });
 });
 
 Route::get('/dashboard', function () {
