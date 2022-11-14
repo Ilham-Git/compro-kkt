@@ -52,11 +52,10 @@
                     <li><a class="nav-link scrollto active" href="{{ url('/') }}">Beranda</a></li>
                     <li><a class="nav-link scrollto" href="{{ url('/') }}#about">Tentang</a></li>
                     <li><a class="nav-link scrollto" href="{{ url('/') }}#pricing">Produk</a></li>
-                    <li class="dropdown"><a href="#"><span>Lainnya</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a><span>Lainnya</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url('/') }}#faq">FAQ</a></li>
-                            <li class="dropdown"><a href="#"><span>Portfolio</span> <i
-                                        class="bi bi-chevron-right"></i></a>
+                            <li class="dropdown"><a><span>Portfolio</span> <i class="bi bi-chevron-right"></i></a>
                                 <ul>
                                     <li><a href="{{ url('/') }}#portfolio">Gudang</a></li>
                                     <li><a href="{{ url('/') }}#team">Team</a></li>
@@ -99,7 +98,8 @@
                         <div class="social-links mt-3">
                             <a href="https://www.twitter.com/" class="twitter"><i class="bi bi-twitter"></i></a>
                             <a href="https://www.facebook.com/" class="facebook"><i class="bi bi-facebook"></i></a>
-                            <a href="https://www.instagram.com/" class="instagram"><i class="bi bi-instagram"></i></a>
+                            <a href="https://www.instagram.com/kokohkuat/" class="instagram"><i
+                                    class="bi bi-instagram"></i></a>
                             <a href="https://www.linkedin.com/" class="linkedin"><i class="bi bi-linkedin"></i></a>
                         </div>
                     </div>

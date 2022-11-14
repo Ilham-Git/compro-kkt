@@ -318,6 +318,14 @@ section {
   background: #70f359;
 }
 
+.navbar .dropdown a {
+  color: #248901;
+}
+
+.navbar .dropdown a:hover {
+  color: #8ac020;
+  cursor: pointer;
+}
 
 .navbar .dropdown ul {
   display: block;
@@ -1389,8 +1397,9 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
+  width: 300px;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
   border: 4px solid #fff;
   margin: 0 auto;
 }

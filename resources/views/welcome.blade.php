@@ -18,7 +18,7 @@
                         <div class="text-center text-lg-start">
                             <a href="{{ url('/') }}#about"
                                 class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                                <span>Mulai</span>
+                                <span>Jelajahi</span>
                                 <i class="bi bi-arrow-right"></i>
                             </a>
                         </div>
@@ -49,11 +49,16 @@
                             PT. KKT adalah salah satu perusahaan distributor Semen Indonesia yang
                             memasarkan produk Semen Tonasa. Berdiri sejak tanggal 29 Desember 2014 sesuai dengan akte
                             pendirian No 93 tgl 29 Desember 2014 di Notaris Dr. Abdul Muis SH MH di Makassar.
+                            <br>
+                            Awal mula berdiri PT KKT terdiri dari 12 pemegang saham, kemudian setelah dilakukan RUPS tahun
+                            2016 untuk kinerja tahun 2015 terjadi perubahan pemegang saham yang semula 12 orang kemudian
+                            menjadi 2 orang saja.
+                            <br>
                         </p>
                         <div class="text-center text-lg-start">
-                            <a href="#"
+                            <a href="{{ url('/tentang') }}"
                                 class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                                <span>Selengkapnya</span>
+                                <span>Struktur</span>
                                 <i class="bi bi-arrow-right"></i>
                             </a>
                         </div>
@@ -69,123 +74,17 @@
 
     </section><!-- End About Section -->
 
-    <!-- ======= Values Section ======= -->
-    <section id="values" class="values">
-
-        <div class="container" data-aos="fade-up">
-
-            <header class="section-header">
-                <h2>Keunggulan Kami</h2>
-                <p>Keunggulan Yang Kami Tawarkan</p>
-            </header>
-
-            <div class="row">
-
-                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="box">
-                        <img src="{{ asset('/tema/img/values-1.png') }}" class="img-fluid" alt="">
-                        <h3>Ad cupiditate sed est odio</h3>
-                        <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id. Lorem
-                            ipsum dolor, sit amet consectetur adipisicing elit. Enim porro, accusamus quaerat, doloremque
-                            cum nam quasi hic et tenetur ratione, tempore numquam ullam voluptatem. Ducimus, dicta ipsam!
-                            Laudantium, id perspiciatis.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
-                    <div class="box">
-                        <img src="{{ asset('/tema/img/values-2.png') }}" class="img-fluid" alt="">
-                        <h3>Voluptatem voluptatum alias</h3>
-                        <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non. Lorem
-                            ipsum dolor sit amet consectetur adipisicing elit. Provident minus repellat quam voluptas
-                            voluptatibus quo quia ex quos temporibus molestias magni deleniti dolores atque voluptate, natus
-                            excepturi reiciendis iure dolorem.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
-                    <div class="box">
-                        <img src="{{ asset('/tema/img/values-3.png') }}" class="img-fluid" alt="">
-                        <h3>Fugit cupiditate alias nobis.</h3>
-                        <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi. Lorem
-                            ipsum dolor sit amet consectetur adipisicing elit. Explicabo rem accusantium eaque hic
-                            laboriosam velit deserunt nihil dolor sit officia. Rerum ad cumque reiciendis cum, omnis totam
-                            corrupti! Ad, esse.</p>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section><!-- End Values Section -->
-
-    <!-- ======= Counts Section ======= -->
-    {{-- <section id="counts" class="counts">
-        <div class="container" data-aos="fade-up">
-
-            <div class="row gy-4">
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="count-box">
-                        <i class="bi bi-emoji-smile"></i>
-                        <div>
-                            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Happy Clients</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="count-box">
-                        <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
-                        <div>
-                            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Projects</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="count-box">
-                        <i class="bi bi-headset" style="color: #15be56;"></i>
-                        <div>
-                            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Hours Of Support</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="count-box">
-                        <i class="bi bi-people" style="color: #bb0852;"></i>
-                        <div>
-                            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Hard Workers</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section><!-- End Counts Section --> --}}
-
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
 
         <div class="container" data-aos="fade-up">
 
-            <header class="section-header">
+            {{-- <header class="section-header">
                 <h2>Features</h2>
                 <p>Laboriosam et omnis fuga quis dolor direda fara</p>
-            </header>
+            </header> --}}
 
-            <div class="row">
+            {{-- <div class="row">
 
                 <div class="col-lg-6">
                     <img src="{{ asset('/tema/img/features.png') }}" class="img-fluid" alt="">
@@ -239,23 +138,23 @@
                     </div>
                 </div>
 
-            </div> <!-- / row -->
+            </div> <!-- / row --> --}}
 
             <!-- Feature Tabs -->
-            <div class="row feture-tabs" data-aos="fade-up">
+            <div class="row feture-tabs mt-0" data-aos="fade-up">
                 <div class="col-lg-6">
                     <h3>Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero</h3>
 
                     <!-- Tabs -->
                     <ul class="nav nav-pills mb-3">
                         <li>
-                            <a class="nav-link active" data-bs-toggle="pill" href="#tab1">Saepe fuga</a>
+                            <a class="nav-link active" data-bs-toggle="pill" href="#tab1">Wilayah Pemasaran</a>
                         </li>
                         <li>
-                            <a class="nav-link" data-bs-toggle="pill" href="#tab2">Voluptates</a>
+                            <a class="nav-link" data-bs-toggle="pill" href="#tab2">Visi</a>
                         </li>
                         <li>
-                            <a class="nav-link" data-bs-toggle="pill" href="#tab3">Corrupti</a>
+                            <a class="nav-link" data-bs-toggle="pill" href="#tab3">Misi</a>
                         </li>
                     </ul><!-- End Tabs -->
 
@@ -263,58 +162,47 @@
                     <div class="tab-content">
 
                         <div class="tab-pane fade show active" id="tab1">
-                            <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente
-                                atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+                            <p>Wilayah penjualan PT KKT berada di Provinsi Sulawesi Selatan yang meliputi kabupaten
+                                Bone,
+                                Soppeng, Wajo, Sidrap, Pinrang dan Kotamadya Parepare.
+                                <br>Dibagi menjadi 2 wilayah pemasaran:
+                            </p>
                             <div class="d-flex align-items-center mb-2">
                                 <i class="bi bi-check2"></i>
-                                <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+                                <h4>Wilayah pemasaran 1 : Kabupaten Bone, Soppeng, dan wajo.</h4>
                             </div>
-                            <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum
-                                non eveniet magni quaerat nemo et.</p>
                             <div class="d-flex align-items-center mb-2">
                                 <i class="bi bi-check2"></i>
-                                <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                                <h4>Wilayah pemasaran 2 : Kabupaten Sidrap, Pinrang, dan Kotamadya Parepare.</h4>
                             </div>
-                            <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure
-                                molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora.
-                                Quia et perferendis.</p>
+                            <p>Dilengkapi sales disetiap wilayah pasar dan sarana lainnya seperti gudang dan kantor
+                                perwakilan, dengan harapan pelayanan ke mitra akan selalu berjalan dan terjaga dengan
+                                baik.
+                            </p>
                         </div><!-- End Tab 1 Content -->
 
                         <div class="tab-pane fade show" id="tab2">
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia ipsa quidem laudantium iste
-                                voluptatem blanditiis voluptates quasi earum veritatis, pariatur fugit suscipit odit, est
-                                quisquam itaque. Deserunt porro reiciendis blanditiis.</p>
-                            <div class="d-flex align-items-center mb-2">
-                                <i class="bi bi-check2"></i>
-                                <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+                            <div class="d-flex align-items-center justify-content-center text-center mb-2">
+                                <h3>“Berkembang bersama membangun bangsa dan menjadi distributor Semen Indonesia
+                                    terbesar”
+                                </h3>
                             </div>
-                            <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum
-                                non eveniet magni quaerat nemo et.</p>
-                            <div class="d-flex align-items-center mb-2">
-                                <i class="bi bi-check2"></i>
-                                <h4>Incidunt non veritatis illum ea ut nisi</h4>
-                            </div>
-                            <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure
-                                molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora.
-                                Quia et perferendis.</p>
                         </div><!-- End Tab 2 Content -->
 
                         <div class="tab-pane fade show" id="tab3">
-                            <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente
-                                atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+                            <p>Misi PT. KOKOH KUAT TERPERCAYA :</p>
                             <div class="d-flex align-items-center mb-2">
-                                <i class="bi bi-check2"></i>
-                                <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+                                <i class="bi bi-1-circle"></i>
+                                <h4>Memasarkan produk Semen Indonesia diwilayah pasar PT. KOKOH KUAT TERPERCAYA.</h4>
                             </div>
-                            <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum
-                                non eveniet magni quaerat nemo et.</p>
                             <div class="d-flex align-items-center mb-2">
-                                <i class="bi bi-check2"></i>
-                                <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                                <i class="bi bi-2-circle"></i>
+                                <h4>Memberikan layanan terbaik ke mitra kerja PT. KOKOH KUAT TERPERCAYA.</h4>
                             </div>
-                            <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure
-                                molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora.
-                                Quia et perferendis.</p>
+                            <div class="d-flex align-items-center mb-2">
+                                <i class="bi bi-3-circle"></i>
+                                <h4>Menjadikan perusahaan sebagai distributor berkinerja baik dan sehat.</h4>
+                            </div>
                         </div><!-- End Tab 3 Content -->
 
                     </div>
@@ -400,6 +288,57 @@
         </div>
 
     </section><!-- End Features Section -->
+
+    <!-- ======= Values Section ======= -->
+    <section id="values" class="values">
+
+        <div class="container" data-aos="fade-up">
+
+            <header class="section-header">
+                <h2>Keunggulan Kami</h2>
+                <p>Keunggulan Yang Kami Tawarkan</p>
+            </header>
+
+            <div class="row">
+
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="box">
+                        <img src="{{ asset('/tema/img/values-1.png') }}" class="img-fluid" alt="">
+                        <h3>Ad cupiditate sed est odio</h3>
+                        <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id. Lorem
+                            ipsum dolor, sit amet consectetur adipisicing elit. Enim porro, accusamus quaerat, doloremque
+                            cum nam quasi hic et tenetur ratione, tempore numquam ullam voluptatem. Ducimus, dicta ipsam!
+                            Laudantium, id perspiciatis.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
+                    <div class="box">
+                        <img src="{{ asset('/tema/img/values-2.png') }}" class="img-fluid" alt="">
+                        <h3>Voluptatem voluptatum alias</h3>
+                        <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non. Lorem
+                            ipsum dolor sit amet consectetur adipisicing elit. Provident minus repellat quam voluptas
+                            voluptatibus quo quia ex quos temporibus molestias magni deleniti dolores atque voluptate, natus
+                            excepturi reiciendis iure dolorem.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
+                    <div class="box">
+                        <img src="{{ asset('/tema/img/values-3.png') }}" class="img-fluid" alt="">
+                        <h3>Fugit cupiditate alias nobis.</h3>
+                        <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi. Lorem
+                            ipsum dolor sit amet consectetur adipisicing elit. Explicabo rem accusantium eaque hic
+                            laboriosam velit deserunt nihil dolor sit officia. Rerum ad cumque reiciendis cum, omnis totam
+                            corrupti! Ad, esse.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section><!-- End Values Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
@@ -496,11 +435,11 @@
                         <h3 style="color: #07d5c0;">Semen Tonasa</h3>
                         <div class="price">50<span>kg</span></div>
                         <img src="{{ asset('/tema/img/Tonasa50.png') }}" class="img-fluid" alt="">
-                        <ul>
+                        {{-- <ul>
                             <li>Nulla at volutpat dola</li>
                             <li class="na">Pharetrdwaa massa</li>
                             <li class="na">Massa ultricies mi</li>
-                        </ul>
+                        </ul> --}}
                         <a href="{{ url('/') }}#contact" class="btn-buy">Beli Sekarang</a>
                     </div>
                 </div>
@@ -511,11 +450,11 @@
                         <h3 style="color: #65c600;">Semen Tonasa</h3>
                         <div class="price">40<span>kg</span></div>
                         <img src="{{ asset('/tema/img/Tonasa40.png') }}" class="img-fluid" alt="">
-                        <ul>
+                        {{-- <ul>
                             <li>Nulla at volutpat dola</li>
                             <li>Pharetra massa</li>
                             <li class="na">Massa ultricies mi</li>
-                        </ul>
+                        </ul> --}}
                         <a href="{{ url('/') }}#contact" class="btn-buy">Beli Sekarang</a>
                     </div>
                 </div>
@@ -525,11 +464,11 @@
                         <h3 style="color: #ff901c;">Semen Dynamix</h3>
                         <div class="price">50<span>kg</span></div>
                         <img src="{{ asset('/tema/img/Dynamix50.png') }}" class="img-fluid" alt="">
-                        <ul>
+                        {{-- <ul>
                             <li>Nulla at volutpat dola</li>
                             <li>Pharetra massa</li>
                             <li>Massa ultricies mi</li>
-                        </ul>
+                        </ul> --}}
                         <a href="{{ url('/') }}#contact" class="btn-buy">Beli Sekarang</a>
                     </div>
                 </div>
@@ -539,11 +478,11 @@
                         <h3 style="color: #ff0071;">Semen Dynamix</h3>
                         <div class="price">40<span>kg</span></div>
                         <img src="{{ asset('/tema/img/Dynamix40.png') }}" class="img-fluid" alt="">
-                        <ul>
+                        {{-- <ul>
                             <li>Nulla at volutpat dola</li>
                             <li>Pharetra massa</li>
                             <li>Massa ultricies mi</li>
-                        </ul>
+                        </ul> --}}
                         <a href="{{ url('/') }}#contact" class="btn-buy">Beli Sekarang</a>
                     </div>
                 </div>
@@ -582,15 +521,21 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-bone">
                     <div class="portfolio-wrap">
-                        <img src="{{ asset('/tema/img/portfolio/portfolio-1.jpg') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('/tema/img/portfolio/bone-1.png') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                            <h4>App 1</h4>
-                            <p>App</p>
+                            <h4>Bone 1</h4>
+                            <p>Bone</p>
                             <div class="portfolio-links">
-                                <a href="{{ asset('/tema/img/portfolio/portfolio-1.jpg') }}"
-                                    data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 1"><i
+                                <a href="{{ asset('/tema/img/portfolio/bone-1.png') }}" data-gallery="portfolioGallery"
+                                    class="portfokio-lightbox"
+                                    title="
+                                    Alamat gudang Jl. Mt. Haryono, Palakka, Bone &lt;br&gt;
+                                    Kapasitas Gudang : 15,000 zak (750 Ton) &lt;br&gt;
+                                    Status Gudang : Sewa &lt;br&gt;
+                                    Ukuran Gudang : 50 meter x 110 meter &lt;br&gt;
+                                    Handling : Manual
+                                    "><i
                                         class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -600,13 +545,19 @@
                     <div class="portfolio-wrap">
                         <img src="{{ asset('/tema/img/portfolio/portfolio-2.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                            <h4>Web 3</h4>
-                            <p>Web</p>
+                            <h4>Soppeng</h4>
+                            <p>Soppeng</p>
                             <div class="portfolio-links">
                                 <a href="{{ asset('/tema/img/portfolio/portfolio-2.jpg') }}"
-                                    data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i
+                                    data-gallery="portfolioGallery" class="portfokio-lightbox"
+                                    title="
+                                    Alamat gudang Jl. Mt. Haryono, Palakka, Bone &lt;br&gt;
+                                    Kapasitas Gudang : 15,000 zak (750 Ton) &lt;br&gt;
+                                    Status Gudang : Sewa &lt;br&gt;
+                                    Ukuran Gudang : 50 meter x 110 meter &lt;br&gt;
+                                    Handling : Manual
+                                    "><i
                                         class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -614,15 +565,21 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-bone">
                     <div class="portfolio-wrap">
-                        <img src="{{ asset('/tema/img/portfolio/portfolio-3.jpg') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('/tema/img/portfolio/bone-2.png') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                            <h4>App 2</h4>
-                            <p>App</p>
+                            <h4>Bone 2</h4>
+                            <p>Bone</p>
                             <div class="portfolio-links">
-                                <a href="{{ asset('/tema/img/portfolio/portfolio-3.jpg') }}"
-                                    data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 2"><i
+                                <a href="{{ asset('/tema/img/portfolio/bone-2.png') }}" data-gallery="portfolioGallery"
+                                    class="portfokio-lightbox"
+                                    title="
+                                    Alamat gudang Desa Labuaja, Kec. Kahu, Bone &lt;br&gt;
+                                    Kapasitas Gudang : 3.000 zak (150 Ton) &lt;br&gt;
+                                    Status Gudang : Sewa &lt;br&gt;
+                                    Ukuran Gudang : 12 meter x 15 meter &lt;br&gt;
+                                    Handling : Manual
+                                    "><i
                                         class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -632,13 +589,18 @@
                     <div class="portfolio-wrap">
                         <img src="{{ asset('/tema/img/portfolio/portfolio-4.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                            <h4>Card 2</h4>
-                            <p>Card</p>
+                            <h4>Wajo</h4>
                             <div class="portfolio-links">
                                 <a href="{{ asset('/tema/img/portfolio/portfolio-4.jpg') }}"
-                                    data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 2"><i
+                                    data-gallery="portfolioGallery" class="portfokio-lightbox"
+                                    title="
+                                    Alamat gudang Jl. Mt. Haryono, Palakka, Bone &lt;br&gt;
+                                    Kapasitas Gudang : 15,000 zak (750 Ton) &lt;br&gt;
+                                    Status Gudang : Sewa &lt;br&gt;
+                                    Ukuran Gudang : 50 meter x 110 meter &lt;br&gt;
+                                    Handling : Manual
+                                    "><i
                                         class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -646,31 +608,20 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-parepare">
                     <div class="portfolio-wrap">
-                        <img src="{{ asset('/tema/img/portfolio/portfolio-5.jpg') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('/tema/img/portfolio/pare.png') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                            <h4>Web 2</h4>
-                            <p>Web</p>
+                            <h4>Parepare</h4>
                             <div class="portfolio-links">
-                                <a href="{{ asset('/tema/img/portfolio/portfolio-5.jpg') }}"
-                                    data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 2"><i
+                                <a href="{{ asset('/tema/img/portfolio/pare.png') }}" data-gallery="portfolioGallery"
+                                    class="portfokio-lightbox"
+                                    title="
+                                    Alamat gudang Jl. Jend. Muh Yamin, Bacukiki, Pare-pare &lt;br&gt;
+                                    Kapasitas Gudang : 3,500 zak (175 Ton) &lt;br&gt;
+                                    Status Gudang : Sewa &lt;br&gt;
+                                    Ukuran Gudang : 10 meter x 15 meter &lt;br&gt;
+                                    Handling : Manual
+                                    "><i
                                         class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-bone">
-                    <div class="portfolio-wrap">
-                        <img src="{{ asset('/tema/img/portfolio/portfolio-6.jpg') }}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>App 3</h4>
-                            <p>App</p>
-                            <div class="portfolio-links">
-                                <a href="{{ asset('/tema/img/portfolio/portfolio-6.jpg') }}"
-                                    data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 3"><i
-                                        class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -678,15 +629,42 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-pinrang">
                     <div class="portfolio-wrap">
-                        <img src="{{ asset('/tema/img/portfolio/portfolio-7.jpg') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('/tema/img/portfolio/pinrang.png') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                            <h4>Card 1</h4>
-                            <p>Card</p>
+                            <h4>Pinrang</h4>
                             <div class="portfolio-links">
-                                <a href="{{ asset('/tema/img/portfolio/portfolio-7.jpg') }}"
-                                    data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 1"><i
+                                <a href="{{ asset('/tema/img/portfolio/pinrang.png') }}" data-gallery="portfolioGallery"
+                                    class="portfokio-lightbox"
+                                    title="
+                                    Alamat gudang Desa Barugae, Kec. Duampanua, Pinrang &lt;br&gt;
+                                    Kapasitas Gudang : 12.000 zak (600 Ton) &lt;br&gt;
+                                    Status Gudang : Sewa &lt;br&gt;
+                                    Ukuran Gudang : 9 meter x 24 meter &lt;br&gt;
+                                    Handling : Manual
+                                    "><i
                                         class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-bone">
+                    <div class="portfolio-wrap">
+                        <img src="{{ asset('/tema/img/portfolio/bone-3.png') }}" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Bone 3</h4>
+                            <p>Bone</p>
+                            <div class="portfolio-links">
+                                <a href="{{ asset('/tema/img/portfolio/bone-3.png') }}" data-gallery="portfolioGallery"
+                                    class="portfokio-lightbox"
+                                    title="
+                                    Alamat gudang Jl. Mt. Haryono, Palakka, Bone &lt;br&gt;
+                                    Kapasitas Gudang : 15,000 zak (750 Ton) &lt;br&gt;
+                                    Status Gudang : Sewa &lt;br&gt;
+                                    Ukuran Gudang : 65 meter x 100 meter &lt;br&gt;
+                                    Handling : Manual
+                                    "><i
+                                        class="bi bi-plus"></i></a>
                             </div>
                         </div>
                     </div>
@@ -696,13 +674,18 @@
                     <div class="portfolio-wrap">
                         <img src="{{ asset('/tema/img/portfolio/portfolio-8.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                            <h4>Card 3</h4>
-                            <p>Card</p>
+                            <h4>Sidrap</h4>
                             <div class="portfolio-links">
                                 <a href="{{ asset('/tema/img/portfolio/portfolio-8.jpg') }}"
-                                    data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 3"><i
+                                    data-gallery="portfolioGallery" class="portfokio-lightbox"
+                                    title="
+                                    Alamat gudang Jl. Mt. Haryono, Palakka, Bone &lt;br&gt;
+                                    Kapasitas Gudang : 15,000 zak (750 Ton) &lt;br&gt;
+                                    Status Gudang : Sewa &lt;br&gt;
+                                    Ukuran Gudang : 50 meter x 110 meter &lt;br&gt;
+                                    Handling : Manual
+                                    "><i
                                         class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -712,13 +695,19 @@
                     <div class="portfolio-wrap">
                         <img src="{{ asset('/tema/img/portfolio/portfolio-9.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                            <h4>Web 3</h4>
-                            <p>Web</p>
+                            <h4>Soppeng 2</h4>
+                            <p>Soppeng</p>
                             <div class="portfolio-links">
                                 <a href="{{ asset('/tema/img/portfolio/portfolio-9.jpg') }}"
-                                    data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i
+                                    data-gallery="portfolioGallery" class="portfokio-lightbox"
+                                    title="
+                                    Alamat gudang Jl. Mt. Haryono, Palakka, Bone &lt;br&gt;
+                                    Kapasitas Gudang : 15,000 zak (750 Ton) &lt;br&gt;
+                                    Status Gudang : Sewa &lt;br&gt;
+                                    Ukuran Gudang : 50 meter x 110 meter &lt;br&gt;
+                                    Handling : Manual
+                                    "><i
                                         class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -729,6 +718,122 @@
         </div>
 
     </section><!-- End Portfolio Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+
+        <div class="container" data-aos="fade-up">
+
+            <header class="section-header">
+                <h2>Penghargaan</h2>
+                <p>Capaian Penghargaan PT. KKT</p>
+            </header>
+
+            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            {{-- <div class="stars">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i>
+                            </div> --}}
+                            <h3>
+                                Distributor peringkat ke 3 sulawesi selatan penjualan tahun 2017
+                            </h3>
+                            <div class="profile">
+                                <img src="{{ asset('/tema/img/testimonials/p-1.png') }}" class="testimonial-img"
+                                    alt="">
+                                <h3>Saul Goodman</h3>
+                                <h4>Ceo &amp; Founder</h4>
+                            </div>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            {{-- <div class="stars">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i>
+                            </div> --}}
+                            <h3>
+                                Distributor peringkat ke 6 nasional penjualan tahun 2017
+                            </h3>
+                            <div class="profile">
+                                <img src="{{ asset('/tema/img/testimonials/p-2.png') }}" class="testimonial-img"
+                                    alt="">
+                                <h3>Sara Wilsson</h3>
+                                <h4>Designer</h4>
+                            </div>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            {{-- <div class="stars">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i>
+                            </div> --}}
+                            <p>
+                                Enim nisi quem export duis labore
+                            </p>
+                            <div class="profile mt-auto">
+                                <img src="{{ asset('/tema/img/testimonials/testimonials-3.jpg') }}"
+                                    class="testimonial-img" alt="">
+                                <h3>Jena Karlis</h3>
+                                <h4>Store Owner</h4>
+                            </div>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            {{-- <div class="stars">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i>
+                            </div> --}}
+                            <p>
+                                Fugiat enim eram quae cillum dolore
+                            </p>
+                            <div class="profile mt-auto">
+                                <img src="{{ asset('/tema/img/testimonials/testimonials-4.jpg') }}"
+                                    class="testimonial-img" alt="">
+                                <h3>Matt Brandon</h3>
+                                <h4>Freelancer</h4>
+                            </div>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            {{-- <div class="stars">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i>
+                            </div> --}}
+                            <p>
+                                Quis quorum aliqua sint quem legam
+                            </p>
+                            <div class="profile mt-auto">
+                                <img src="{{ asset('/tema/img/testimonials/testimonials-5.jpg') }}"
+                                    class="testimonial-img" alt="">
+                                <h3>John Larson</h3>
+                                <h4>Entrepreneur</h4>
+                            </div>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+    </section><!-- End Testimonials Section -->
 
     <!-- ======= F.A.Q Section ======= -->
     <section id="faq" class="faq">
@@ -862,130 +967,6 @@
 
     </section><!-- End F.A.Q Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    {{-- <section id="testimonials" class="testimonials">
-
-        <div class="container" data-aos="fade-up">
-
-            <header class="section-header">
-                <h2>Testimonials</h2>
-                <p>What they are saying about us</p>
-            </header>
-
-            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
-                <div class="swiper-wrapper">
-
-                    <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <div class="stars">
-                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i>
-                            </div>
-                            <p>
-                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
-                                Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                            </p>
-                            <div class="profile mt-auto">
-                                <img src="{{ asset('/tema/img/testimonials/testimonials-1.jpg') }}"
-                                    class="testimonial-img" alt="">
-                                <h3>Saul Goodman</h3>
-                                <h4>Ceo &amp; Founder</h4>
-                            </div>
-                        </div>
-                    </div><!-- End testimonial item -->
-
-                    <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <div class="stars">
-                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i>
-                            </div>
-                            <p>
-                                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum
-                                eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim
-                                culpa.
-                            </p>
-                            <div class="profile mt-auto">
-                                <img src="{{ asset('/tema/img/testimonials/testimonials-2.jpg') }}"
-                                    class="testimonial-img" alt="">
-                                <h3>Sara Wilsson</h3>
-                                <h4>Designer</h4>
-                            </div>
-                        </div>
-                    </div><!-- End testimonial item -->
-
-                    <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <div class="stars">
-                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i>
-                            </div>
-                            <p>
-                                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis
-                                minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                            </p>
-                            <div class="profile mt-auto">
-                                <img src="{{ asset('/tema/img/testimonials/testimonials-3.jpg') }}"
-                                    class="testimonial-img" alt="">
-                                <h3>Jena Karlis</h3>
-                                <h4>Store Owner</h4>
-                            </div>
-                        </div>
-                    </div><!-- End testimonial item -->
-
-                    <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <div class="stars">
-                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i>
-                            </div>
-                            <p>
-                                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim
-                                velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum
-                                veniam.
-                            </p>
-                            <div class="profile mt-auto">
-                                <img src="{{ asset('/tema/img/testimonials/testimonials-4.jpg') }}"
-                                    class="testimonial-img" alt="">
-                                <h3>Matt Brandon</h3>
-                                <h4>Freelancer</h4>
-                            </div>
-                        </div>
-                    </div><!-- End testimonial item -->
-
-                    <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <div class="stars">
-                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i>
-                            </div>
-                            <p>
-                                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam
-                                enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore
-                                nisi cillum quid.
-                            </p>
-                            <div class="profile mt-auto">
-                                <img src="{{ asset('/tema/img/testimonials/testimonials-5.jpg') }}"
-                                    class="testimonial-img" alt="">
-                                <h3>John Larson</h3>
-                                <h4>Entrepreneur</h4>
-                            </div>
-                        </div>
-                    </div><!-- End testimonial item -->
-
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-
-        </div>
-
-    </section><!-- End Testimonials Section --> --}}
-
     <!-- ======= Team Section ======= -->
     <section id="team" class="team">
 
@@ -1083,41 +1064,6 @@
         </div>
 
     </section><!-- End Team Section -->
-
-    <!-- ======= Clients Section ======= -->
-    {{-- <section id="clients" class="clients">
-
-        <div class="container" data-aos="fade-up">
-
-            <header class="section-header">
-                <h2>Our Clients</h2>
-                <p>Temporibus omnis officia</p>
-            </header>
-
-            <div class="clients-slider swiper">
-                <div class="swiper-wrapper align-items-center">
-                    <div class="swiper-slide"><img src="{{ asset('/tema/img/clients/client-1.png') }}" class="img-fluid"
-                            alt=""></div>
-                    <div class="swiper-slide"><img src="{{ asset('/tema/img/clients/client-2.png') }}" class="img-fluid"
-                            alt=""></div>
-                    <div class="swiper-slide"><img src="{{ asset('/tema/img/clients/client-3.png') }}" class="img-fluid"
-                            alt=""></div>
-                    <div class="swiper-slide"><img src="{{ asset('/tema/img/clients/client-4.png') }}" class="img-fluid"
-                            alt=""></div>
-                    <div class="swiper-slide"><img src="{{ asset('/tema/img/clients/client-5.png') }}" class="img-fluid"
-                            alt=""></div>
-                    <div class="swiper-slide"><img src="{{ asset('/tema/img/clients/client-6.png') }}" class="img-fluid"
-                            alt=""></div>
-                    <div class="swiper-slide"><img src="{{ asset('/tema/img/clients/client-7.png') }}" class="img-fluid"
-                            alt=""></div>
-                    <div class="swiper-slide"><img src="{{ asset('/tema/img/clients/client-8.png') }}" class="img-fluid"
-                            alt=""></div>
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-        </div>
-
-    </section><!-- End Clients Section --> --}}
 
     <!-- ======= Recent Blog Posts Section ======= -->
     <section id="recent-blog-posts" class="recent-blog-posts">

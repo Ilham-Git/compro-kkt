@@ -18,4 +18,8 @@ class PublicController extends Controller
     {
         return view('pengumuman');
     }
+    public function tentang()
+    {
+        return view('tentang');
+    }
 }
