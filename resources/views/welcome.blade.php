@@ -79,71 +79,10 @@
 
         <div class="container" data-aos="fade-up">
 
-            {{-- <header class="section-header">
-                <h2>Features</h2>
-                <p>Laboriosam et omnis fuga quis dolor direda fara</p>
-            </header> --}}
-
-            {{-- <div class="row">
-
-                <div class="col-lg-6">
-                    <img src="{{ asset('/tema/img/features.png') }}" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
-                    <div class="row align-self-center gy-4">
-
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
-                            <div class="feature-box d-flex align-items-center">
-                                <i class="bi bi-check"></i>
-                                <h3>Eos aspernatur rem</h3>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
-                            <div class="feature-box d-flex align-items-center">
-                                <i class="bi bi-check"></i>
-                                <h3>Facilis neque ipsa</h3>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
-                            <div class="feature-box d-flex align-items-center">
-                                <i class="bi bi-check"></i>
-                                <h3>Volup amet voluptas</h3>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
-                            <div class="feature-box d-flex align-items-center">
-                                <i class="bi bi-check"></i>
-                                <h3>Rerum omnis sint</h3>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
-                            <div class="feature-box d-flex align-items-center">
-                                <i class="bi bi-check"></i>
-                                <h3>Alias possimus</h3>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
-                            <div class="feature-box d-flex align-items-center">
-                                <i class="bi bi-check"></i>
-                                <h3>Repellendus mollitia</h3>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div> <!-- / row --> --}}
-
             <!-- Feature Tabs -->
             <div class="row feture-tabs mt-0" data-aos="fade-up">
                 <div class="col-lg-6">
-                    <h3>Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero</h3>
+                    <h3>Sebaran Wilayah Pemasaran dan Visi Misi PT. KOKOH KUAT TERPERCAYA</h3>
 
                     <!-- Tabs -->
                     <ul class="nav nav-pills mb-3">
@@ -215,76 +154,6 @@
 
             </div><!-- End Feature Tabs -->
 
-            <!-- Feature Icons -->
-            {{-- <div class="row feature-icons" data-aos="fade-up">
-                <h3>Ratione mollitia eos ab laudantium rerum beatae quo</h3>
-
-                <div class="row">
-
-                    <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
-                        <img src="{{ asset('/tema/img/features-3.png') }}" class="img-fluid p-4" alt="">
-                    </div>
-
-                    <div class="col-xl-8 d-flex content">
-                        <div class="row align-self-center gy-4">
-
-                            <div class="col-md-6 icon-box" data-aos="fade-up">
-                                <i class="ri-line-chart-line"></i>
-                                <div>
-                                    <h4>Corporis voluptates sit</h4>
-                                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                                <i class="ri-stack-line"></i>
-                                <div>
-                                    <h4>Ullamco laboris nisi</h4>
-                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                                <i class="ri-brush-4-line"></i>
-                                <div>
-                                    <h4>Labore consequatur</h4>
-                                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                                <i class="ri-magic-line"></i>
-                                <div>
-                                    <h4>Beatae veritatis</h4>
-                                    <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                                <i class="ri-command-line"></i>
-                                <div>
-                                    <h4>Molestiae dolor</h4>
-                                    <p>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte</p>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-                                <i class="ri-radar-line"></i>
-                                <div>
-                                    <h4>Explicabo consectetur</h4>
-                                    <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-
-            </div><!-- End Feature Icons --> --}}
-
         </div>
 
     </section><!-- End Features Section -->
@@ -304,33 +173,27 @@
                 <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="box">
                         <img src="{{ asset('/tema/img/values-1.png') }}" class="img-fluid" alt="">
-                        <h3>Ad cupiditate sed est odio</h3>
-                        <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id. Lorem
-                            ipsum dolor, sit amet consectetur adipisicing elit. Enim porro, accusamus quaerat, doloremque
-                            cum nam quasi hic et tenetur ratione, tempore numquam ullam voluptatem. Ducimus, dicta ipsam!
-                            Laudantium, id perspiciatis.</p>
+                        <h3>Jaminan Mutu dan Kualitas</h3>
+                        <p>Seluruh hasil kami dibuat dengan kualifikasi teknis dan kualitas di atas Standar Nasional
+                            Indonesia (SNI).</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
                     <div class="box">
                         <img src="{{ asset('/tema/img/values-2.png') }}" class="img-fluid" alt="">
-                        <h3>Voluptatem voluptatum alias</h3>
-                        <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non. Lorem
-                            ipsum dolor sit amet consectetur adipisicing elit. Provident minus repellat quam voluptas
-                            voluptatibus quo quia ex quos temporibus molestias magni deleniti dolores atque voluptate, natus
-                            excepturi reiciendis iure dolorem.</p>
+                        <h3>Teknologi dan Inovasi</h3>
+                        <p>Kami sangat meyakini bahwa adaptasi teknologi dan inovasi adalah solusi jangka panjang pada
+                            perusahaan</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
                     <div class="box">
                         <img src="{{ asset('/tema/img/values-3.png') }}" class="img-fluid" alt="">
-                        <h3>Fugit cupiditate alias nobis.</h3>
-                        <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi. Lorem
-                            ipsum dolor sit amet consectetur adipisicing elit. Explicabo rem accusantium eaque hic
-                            laboriosam velit deserunt nihil dolor sit officia. Rerum ad cumque reiciendis cum, omnis totam
-                            corrupti! Ad, esse.</p>
+                        <h3>Profesional dan Kompeten</h3>
+                        <p>Didukung dan dikerjakan oleh tenaga terampil serta sumber daya manusia yang profesional dan
+                            kompeten.</p>
                     </div>
                 </div>
 
@@ -355,60 +218,49 @@
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-box blue">
                         <i class="ri-discuss-line icon"></i>
-                        <h3>Nesciunt Mete</h3>
-                        <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure
-                            perferendis tempore et consequatur.</p>
-                        <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                        <h3>Unit Pabrik</h3>
+                        <p>Kami memiliki 4 unit pabrik untuk kegiatan produksi.</p>
+                        {{-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> --}}
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-box orange">
                         <i class="ri-discuss-line icon"></i>
-                        <h3>Eosle Commodi</h3>
-                        <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non
-                            ut nesciunt dolorem.</p>
-                        <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                        <h3>Pelabuhan Khusus</h3>
+                        <p>Kegiatan distribusi didukung dengan pelabuhan khusus.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                     <div class="service-box green">
                         <i class="ri-discuss-line icon"></i>
-                        <h3>Ledo Markt</h3>
-                        <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas
-                            adipisci eos earum corrupti.</p>
-                        <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                        <h3>Unit Power Plant</h3>
+                        <p>Untuk menunjang kegiatan produksi, kami memiliki 2 unit power plant.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                     <div class="service-box red">
                         <i class="ri-discuss-line icon"></i>
-                        <h3>Asperiores Commodi</h3>
-                        <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit
-                            provident adipisci neque.</p>
-                        <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                        <h3>Pengalaman Operasi</h3>
+                        <p>Beroperasi sejak 5 Desember 1960 membuat kaya akan pengalaman.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                     <div class="service-box purple">
                         <i class="ri-discuss-line icon"></i>
-                        <h3>Velit Doloremque.</h3>
-                        <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at
-                            autem alias eius labore.</p>
-                        <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                        <h3>Unit Packing Plant</h3>
+                        <p>Kegiatan packing ditunjang dengan 11 unit packing plant.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
                     <div class="service-box pink">
                         <i class="ri-discuss-line icon"></i>
-                        <h3>Dolori Architecto</h3>
-                        <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti
-                            recusandae ducimus enim.</p>
-                        <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                        <h3>Inovasi Untuk Kemajuan</h3>
+                        <p>Terus bergerak maju untuk menciptakan inovasi bagi bangsa.</p>
                     </div>
                 </div>
 
@@ -521,21 +373,30 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-bone">
                     <div class="portfolio-wrap">
-                        <img src="{{ asset('/tema/img/portfolio/bone-1.png') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('/tema/img/portfolio/palakka1.png') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                            <h4>Bone 1</h4>
+                            <h4>Gudang Palakka 1</h4>
                             <p>Bone</p>
                             <div class="portfolio-links">
-                                <a href="{{ asset('/tema/img/portfolio/bone-1.png') }}" data-gallery="portfolioGallery"
-                                    class="portfokio-lightbox"
+                                <a href="{{ asset('/tema/img/portfolio/palakka1.png') }}" data-gallery="portfolioGallery"
+                                    class="portfokio-lightbox" onmouseover="this.title='Deskripsi';"
                                     title="
+                                    Gudang Palakka 1
                                     Alamat gudang Jl. Mt. Haryono, Palakka, Bone &lt;br&gt;
                                     Kapasitas Gudang : 15,000 zak (750 Ton) &lt;br&gt;
                                     Status Gudang : Sewa &lt;br&gt;
                                     Ukuran Gudang : 50 meter x 110 meter &lt;br&gt;
                                     Handling : Manual
                                     "><i
-                                        class="bi bi-plus"></i></a>
+                                        class="bi bi-fullscreen"></i></a>
+                                <a data-gallery="portfolioGallery" class="portfokio-lightbox"
+                                    onmouseover="this.title='Map';"
+                                    title='<div class="text-center">
+                                        <h2>Map Gudang Palakka 1 Bone</h2>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317.75003932326507!2d120.29304312596298!3d-4.535903260003901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf4a55b9f442768f0!2zNMKwMzInMDguOCJTIDEyMMKwMTcnMzUuMSJF!5e0!3m2!1sid!2sid!4v1669946832523!5m2!1sid!2sid" 
+                                        width="70%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        </div>'>
+                                    <i class="bi bi-geo-alt"></i></a>
                             </div>
                         </div>
                     </div>
@@ -545,19 +406,29 @@
                     <div class="portfolio-wrap">
                         <img src="{{ asset('/tema/img/portfolio/portfolio-2.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                            <h4>Soppeng</h4>
+                            <h4>Gudang Soppeng</h4>
                             <p>Soppeng</p>
                             <div class="portfolio-links">
                                 <a href="{{ asset('/tema/img/portfolio/portfolio-2.jpg') }}"
                                     data-gallery="portfolioGallery" class="portfokio-lightbox"
+                                    onmouseover="this.title='Deskripsi';"
                                     title="
+                                    Gudang Soppeng
                                     Alamat gudang Jl. Mt. Haryono, Palakka, Bone &lt;br&gt;
                                     Kapasitas Gudang : 15,000 zak (750 Ton) &lt;br&gt;
                                     Status Gudang : Sewa &lt;br&gt;
                                     Ukuran Gudang : 50 meter x 110 meter &lt;br&gt;
                                     Handling : Manual
                                     "><i
-                                        class="bi bi-plus"></i></a>
+                                        class="bi bi-fullscreen"></i></a>
+                                <a data-gallery="portfolioGallery" class="portfokio-lightbox"
+                                    onmouseover="this.title='Map';"
+                                    title='<div class="text-center">
+                                        <h2>Map Gudang Soppeng</h2>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317.75003932326507!2d120.29304312596298!3d-4.535903260003901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf4a55b9f442768f0!2zNMKwMzInMDguOCJTIDEyMMKwMTcnMzUuMSJF!5e0!3m2!1sid!2sid!4v1669946832523!5m2!1sid!2sid" 
+                                        width="70%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        </div>'>
+                                    <i class="bi bi-geo-alt"></i></a>
                             </div>
                         </div>
                     </div>
@@ -565,21 +436,29 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-bone">
                     <div class="portfolio-wrap">
-                        <img src="{{ asset('/tema/img/portfolio/bone-2.png') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('/tema/img/portfolio/labuaja.png') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                            <h4>Bone 2</h4>
+                            <h4>Gudang Labuaja</h4>
                             <p>Bone</p>
                             <div class="portfolio-links">
-                                <a href="{{ asset('/tema/img/portfolio/bone-2.png') }}" data-gallery="portfolioGallery"
-                                    class="portfokio-lightbox"
+                                <a href="{{ asset('/tema/img/portfolio/labuaja.png') }}" data-gallery="portfolioGallery"
+                                    class="portfokio-lightbox" onmouseover="this.title='Deskripsi';"
                                     title="
+                                    Gudang Labuaja
                                     Alamat gudang Desa Labuaja, Kec. Kahu, Bone &lt;br&gt;
                                     Kapasitas Gudang : 3.000 zak (150 Ton) &lt;br&gt;
                                     Status Gudang : Sewa &lt;br&gt;
                                     Ukuran Gudang : 12 meter x 15 meter &lt;br&gt;
                                     Handling : Manual
                                     "><i
-                                        class="bi bi-plus"></i></a>
+                                        class="bi bi-fullscreen"></i></a>
+                                <a data-gallery="portfolioGallery" class="portfokio-lightbox"
+                                    onmouseover="this.title='Map';"
+                                    title='<div class="text-center">
+                                        <h2>Map Gudang Labuaja Bone</h2>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d783.0088609806281!2d120.1180582937958!3d-4.987383525718556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf6e76bd4e808b03d!2zNMKwNTknMTQuMyJTIDEyMMKwMDcnMDQuNyJF!5e0!3m2!1sid!2sid!4v1669947238055!5m2!1sid!2sid" 
+                                        width="70%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>'>
+                                    <i class="bi bi-geo-alt"></i></a>
                             </div>
                         </div>
                     </div>
@@ -589,18 +468,29 @@
                     <div class="portfolio-wrap">
                         <img src="{{ asset('/tema/img/portfolio/portfolio-4.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                            <h4>Wajo</h4>
+                            <h4>Gudang Wajo</h4>
+                            <p>Wajo</p>
                             <div class="portfolio-links">
                                 <a href="{{ asset('/tema/img/portfolio/portfolio-4.jpg') }}"
                                     data-gallery="portfolioGallery" class="portfokio-lightbox"
+                                    onmouseover="this.title='Deskripsi';"
                                     title="
+                                    Gudang Wajo
                                     Alamat gudang Jl. Mt. Haryono, Palakka, Bone &lt;br&gt;
                                     Kapasitas Gudang : 15,000 zak (750 Ton) &lt;br&gt;
                                     Status Gudang : Sewa &lt;br&gt;
                                     Ukuran Gudang : 50 meter x 110 meter &lt;br&gt;
                                     Handling : Manual
                                     "><i
-                                        class="bi bi-plus"></i></a>
+                                        class="bi bi-fullscreen"></i></a>
+                                <a data-gallery="portfolioGallery" class="portfokio-lightbox"
+                                    onmouseover="this.title='Map';"
+                                    title='<div class="text-center">
+                                        <h2>Map Gudang Wajo</h2>
+                                        <iframe style="border:0; width: 70%; height: 600px;"
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.734409534322!2d119.4440487147639!3d-5.146392453465987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee2c953e021cb%3A0xa5b7f19d36484df5!2sPT%20KOKOH%20KUAT%20TERPERCAYA!5e0!3m2!1sid!2sid!4v1664845165097!5m2!1sid!2sid"
+                                        frameborder="0"></iframe></div>'>
+                                    <i class="bi bi-geo-alt"></i></a>
                             </div>
                         </div>
                     </div>
@@ -608,20 +498,29 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-parepare">
                     <div class="portfolio-wrap">
-                        <img src="{{ asset('/tema/img/portfolio/pare.png') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('/tema/img/portfolio/parepare.png') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                            <h4>Parepare</h4>
+                            <h4>Gudang Parepare</h4>
+                            <p>Parepare</p>
                             <div class="portfolio-links">
-                                <a href="{{ asset('/tema/img/portfolio/pare.png') }}" data-gallery="portfolioGallery"
-                                    class="portfokio-lightbox"
+                                <a href="{{ asset('/tema/img/portfolio/parepare.png') }}" data-gallery="portfolioGallery"
+                                    class="portfokio-lightbox" onmouseover="this.title='Deskripsi';"
                                     title="
+                                    Gudang Parepare
                                     Alamat gudang Jl. Jend. Muh Yamin, Bacukiki, Pare-pare &lt;br&gt;
                                     Kapasitas Gudang : 3,500 zak (175 Ton) &lt;br&gt;
                                     Status Gudang : Sewa &lt;br&gt;
                                     Ukuran Gudang : 10 meter x 15 meter &lt;br&gt;
                                     Handling : Manual
                                     "><i
-                                        class="bi bi-plus"></i></a>
+                                        class="bi bi-fullscreen"></i></a>
+                                <a data-gallery="portfolioGallery" class="portfokio-lightbox"
+                                    onmouseover="this.title='Map';"
+                                    title='<div class="text-center">
+                                        <h2>Map Gudang Parepare</h2>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1347.5096814029866!2d119.66473289235587!3d-4.005025967445515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe5b20d5af61a739e!2zNMKwMDAnMTcuNSJTIDExOcKwMzknNTUuOCJF!5e0!3m2!1sid!2sid!4v1669947331968!5m2!1sid!2sid" 
+                                        width="70%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>'>
+                                    <i class="bi bi-geo-alt"></i></a>
                             </div>
                         </div>
                     </div>
@@ -631,18 +530,27 @@
                     <div class="portfolio-wrap">
                         <img src="{{ asset('/tema/img/portfolio/pinrang.png') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                            <h4>Pinrang</h4>
+                            <h4>Gudang Pinrang</h4>
+                            <p>Pinrang</p>
                             <div class="portfolio-links">
                                 <a href="{{ asset('/tema/img/portfolio/pinrang.png') }}" data-gallery="portfolioGallery"
-                                    class="portfokio-lightbox"
+                                    class="portfokio-lightbox" onmouseover="this.title='Deskripsi';"
                                     title="
+                                    Gudang Pinrang
                                     Alamat gudang Desa Barugae, Kec. Duampanua, Pinrang &lt;br&gt;
                                     Kapasitas Gudang : 12.000 zak (600 Ton) &lt;br&gt;
                                     Status Gudang : Sewa &lt;br&gt;
                                     Ukuran Gudang : 9 meter x 24 meter &lt;br&gt;
                                     Handling : Manual
                                     "><i
-                                        class="bi bi-plus"></i></a>
+                                        class="bi bi-fullscreen"></i></a>
+                                <a data-gallery="portfolioGallery" class="portfokio-lightbox"
+                                    onmouseover="this.title='Map';"
+                                    title='<div class="text-center">
+                                        <h2>Map Gudang Pinrang</h2>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.0735554998664!2d119.53584211462751!3d-3.570552843389748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd175bb53a628e6de!2zM8KwMzQnMTQuMCJTIDExOcKwMzInMTYuOSJF!5e0!3m2!1sid!2sid!4v1669947383106!5m2!1sid!2sid" 
+                                        width="70%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>'>
+                                    <i class="bi bi-geo-alt"></i></a>
                             </div>
                         </div>
                     </div>
@@ -650,21 +558,30 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-bone">
                     <div class="portfolio-wrap">
-                        <img src="{{ asset('/tema/img/portfolio/bone-3.png') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('/tema/img/portfolio/palakka2.png') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                            <h4>Bone 3</h4>
+                            <h4>Gudang Palakka 2</h4>
                             <p>Bone</p>
                             <div class="portfolio-links">
-                                <a href="{{ asset('/tema/img/portfolio/bone-3.png') }}" data-gallery="portfolioGallery"
-                                    class="portfokio-lightbox"
+                                <a href="{{ asset('/tema/img/portfolio/palakka2.png') }}" data-gallery="portfolioGallery"
+                                    class="portfokio-lightbox" onmouseover="this.title='Deskripsi';"
                                     title="
+                                    Gudang Palakka 2
                                     Alamat gudang Jl. Mt. Haryono, Palakka, Bone &lt;br&gt;
                                     Kapasitas Gudang : 15,000 zak (750 Ton) &lt;br&gt;
                                     Status Gudang : Sewa &lt;br&gt;
                                     Ukuran Gudang : 65 meter x 100 meter &lt;br&gt;
                                     Handling : Manual
                                     "><i
-                                        class="bi bi-plus"></i></a>
+                                        class="bi bi-fullscreen"></i></a>
+                                <a data-gallery="portfolioGallery" class="portfokio-lightbox"
+                                    onmouseover="this.title='Map';"
+                                    title='<div class="text-center">
+                                        <h2>Map Gudang Palakka 2 Bone</h2>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317.75003932326507!2d120.29304312596298!3d-4.535903260003901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf4a55b9f442768f0!2zNMKwMzInMDguOCJTIDEyMMKwMTcnMzUuMSJF!5e0!3m2!1sid!2sid!4v1669946832523!5m2!1sid!2sid" 
+                                        width="70%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        </div>'>
+                                    <i class="bi bi-geo-alt"></i></a>
                             </div>
                         </div>
                     </div>
@@ -672,51 +589,36 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-sidrap">
                     <div class="portfolio-wrap">
-                        <img src="{{ asset('/tema/img/portfolio/portfolio-8.jpg') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('/tema/img/portfolio/sidrap.png') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                            <h4>Sidrap</h4>
+                            <h4>Gudang Sidrap</h4>
+                            <p>Sidrap</p>
                             <div class="portfolio-links">
-                                <a href="{{ asset('/tema/img/portfolio/portfolio-8.jpg') }}"
-                                    data-gallery="portfolioGallery" class="portfokio-lightbox"
+                                <a href="{{ asset('/tema/img/portfolio/sidrap.png') }}" data-gallery="portfolioGallery"
+                                    class="portfokio-lightbox" onmouseover="this.title='Deskripsi';"
                                     title="
-                                    Alamat gudang Jl. Mt. Haryono, Palakka, Bone &lt;br&gt;
-                                    Kapasitas Gudang : 15,000 zak (750 Ton) &lt;br&gt;
+                                    Gudang Sidrap
+                                    Alamat : Jalan Sejahterah, Kelurahan Majelling, Sidrap &lt;br&gt;
+                                    Kapasitas Gudang : 4.200 zak &lt;br&gt;
                                     Status Gudang : Sewa &lt;br&gt;
-                                    Ukuran Gudang : 50 meter x 110 meter &lt;br&gt;
-                                    Handling : Manual
+                                    Ukuran Gudang : 17 m x 13 m &lt;br&gt;
+                                    Handling : Manual &lt;br&gt;
+                                    Koordinat : -3.9238131057986187, 119.7999809534582
                                     "><i
-                                        class="bi bi-plus"></i></a>
+                                        class="bi bi-fullscreen"></i></a>
+                                <a data-gallery="portfolioGallery" class="portfokio-lightbox"
+                                    onmouseover="this.title='Map';"
+                                    title='<div class="text-center">
+                                        <h2>Map Gudang Sidrap</h2>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4767.900696711544!2d119.79737207396379!3d-3.9236775219596405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x760d550ba315af4c!2zM8KwNTUnMjUuNyJTIDExOcKwNDcnNTkuOSJF!5e0!3m2!1sid!2sid!4v1669947427126!5m2!1sid!2sid" 
+                                        width="70%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>'>
+                                    <i class="bi bi-geo-alt"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-soppeng">
-                    <div class="portfolio-wrap">
-                        <img src="{{ asset('/tema/img/portfolio/portfolio-9.jpg') }}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Soppeng 2</h4>
-                            <p>Soppeng</p>
-                            <div class="portfolio-links">
-                                <a href="{{ asset('/tema/img/portfolio/portfolio-9.jpg') }}"
-                                    data-gallery="portfolioGallery" class="portfokio-lightbox"
-                                    title="
-                                    Alamat gudang Jl. Mt. Haryono, Palakka, Bone &lt;br&gt;
-                                    Kapasitas Gudang : 15,000 zak (750 Ton) &lt;br&gt;
-                                    Status Gudang : Sewa &lt;br&gt;
-                                    Ukuran Gudang : 50 meter x 110 meter &lt;br&gt;
-                                    Handling : Manual
-                                    "><i
-                                        class="bi bi-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
-
         </div>
-
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Testimonials Section ======= -->
@@ -734,105 +636,161 @@
 
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            {{-- <div class="stars">
-                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i>
-                            </div> --}}
                             <h3>
-                                Distributor peringkat ke 3 sulawesi selatan penjualan tahun 2017
+                                Pencapaian Kinerja Penjualan Terbaik
                             </h3>
                             <div class="profile">
-                                <img src="{{ asset('/tema/img/testimonials/p-1.png') }}" class="testimonial-img"
+                                <img src="{{ asset('/tema/img/testimonials/p1.png') }}" class="testimonial-img"
                                     alt="">
-                                <h3>Saul Goodman</h3>
-                                <h4>Ceo &amp; Founder</h4>
+                                <h3>Penjualan Tonasa 50KG</h3>
+                                <h4>Tahun 2017</h4>
                             </div>
                         </div>
                     </div><!-- End testimonial item -->
 
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            {{-- <div class="stars">
-                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i>
-                            </div> --}}
                             <h3>
-                                Distributor peringkat ke 6 nasional penjualan tahun 2017
+                                Distributor Penjualan Sulawesi Selatan
                             </h3>
                             <div class="profile">
-                                <img src="{{ asset('/tema/img/testimonials/p-2.png') }}" class="testimonial-img"
+                                <img src="{{ asset('/tema/img/testimonials/p2.png') }}" class="testimonial-img"
                                     alt="">
-                                <h3>Sara Wilsson</h3>
-                                <h4>Designer</h4>
+                                <h3>Peringkat 1</h3>
+                                <h4>Tahun 2020</h4>
                             </div>
                         </div>
                     </div><!-- End testimonial item -->
 
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            {{-- <div class="stars">
-                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i>
-                            </div> --}}
-                            <p>
-                                Enim nisi quem export duis labore
-                            </p>
+                            <h3>
+                                Distributor Penjualan Nasional
+                            </h3>
                             <div class="profile mt-auto">
-                                <img src="{{ asset('/tema/img/testimonials/testimonials-3.jpg') }}"
-                                    class="testimonial-img" alt="">
-                                <h3>Jena Karlis</h3>
-                                <h4>Store Owner</h4>
+                                <img src="{{ asset('/tema/img/testimonials/p3.png') }}" class="testimonial-img"
+                                    alt="">
+                                <h3>Peringkat 3</h3>
+                                <h4>Tahun 2020</h4>
                             </div>
                         </div>
                     </div><!-- End testimonial item -->
 
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            {{-- <div class="stars">
-                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i>
-                            </div> --}}
-                            <p>
-                                Fugiat enim eram quae cillum dolore
-                            </p>
+                            <h3>
+                                Distributor Penjualan Nasional
+                            </h3>
                             <div class="profile mt-auto">
-                                <img src="{{ asset('/tema/img/testimonials/testimonials-4.jpg') }}"
-                                    class="testimonial-img" alt="">
-                                <h3>Matt Brandon</h3>
-                                <h4>Freelancer</h4>
+                                <img src="{{ asset('/tema/img/testimonials/p4.png') }}" class="testimonial-img"
+                                    alt="">
+                                <h3>Peringkat 4</h3>
+                                <h4>Tahun 2021</h4>
                             </div>
                         </div>
                     </div><!-- End testimonial item -->
 
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            {{-- <div class="stars">
-                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i>
-                            </div> --}}
-                            <p>
-                                Quis quorum aliqua sint quem legam
-                            </p>
+                            <h3>
+                                Distributor Penjualan Sulawesi Selatan
+                            </h3>
                             <div class="profile mt-auto">
-                                <img src="{{ asset('/tema/img/testimonials/testimonials-5.jpg') }}"
-                                    class="testimonial-img" alt="">
-                                <h3>John Larson</h3>
-                                <h4>Entrepreneur</h4>
+                                <img src="{{ asset('/tema/img/testimonials/p5.png') }}" class="testimonial-img"
+                                    alt="">
+                                <h3>Peringkat 1</h3>
+                                <h4>Tahun 2021</h4>
                             </div>
                         </div>
                     </div><!-- End testimonial item -->
 
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <h3>
+                                Distributor Penjualan Nasional
+                            </h3>
+                            <div class="profile mt-auto">
+                                <img src="{{ asset('/tema/img/testimonials/p6.png') }}" class="testimonial-img"
+                                    alt="">
+                                <h3>Peringkat 4</h3>
+                                <h4>Tahun 2018</h4>
+                            </div>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <h3>
+                                Distributor Penjualan Sulawesi Selatan
+                            </h3>
+                            <div class="profile mt-auto">
+                                <img src="{{ asset('/tema/img/testimonials/p7.png') }}" class="testimonial-img"
+                                    alt="">
+                                <h3>Peringkat 1</h3>
+                                <h4>Tahun 2019</h4>
+                            </div>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <h3>
+                                Distributor Penjualan Nasional
+                            </h3>
+                            <div class="profile mt-auto">
+                                <img src="{{ asset('/tema/img/testimonials/p8.png') }}" class="testimonial-img"
+                                    alt="">
+                                <h3>Peringkat 3</h3>
+                                <h4>Tahun 2019</h4>
+                            </div>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <h3>
+                                Distributor Penjualan Sulawesi Selatan
+                            </h3>
+                            <div class="profile mt-auto">
+                                <img src="{{ asset('/tema/img/testimonials/p9.png') }}" class="testimonial-img"
+                                    alt="">
+                                <h3>Peringkat 1</h3>
+                                <h4>Tahun 2018</h4>
+                            </div>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <h3>
+                                Distributor Retail Kategori Pemasaran
+                            </h3>
+                            <div class="profile mt-auto">
+                                <img src="{{ asset('/tema/img/testimonials/p10.png') }}" class="testimonial-img"
+                                    alt="">
+                                <h3>Peringkat 1</h3>
+                                <h4>Tahun 2019</h4>
+                            </div>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <h3>
+                                Distributor Penjualan Sulawesi Selatan
+                            </h3>
+                            <div class="profile mt-auto">
+                                <img src="{{ asset('/tema/img/testimonials/p11.png') }}" class="testimonial-img"
+                                    alt="">
+                                <h3>Peringkat 3</h3>
+                                <h4>Tahun 2017</h4>
+                            </div>
+                        </div>
+                    </div><!-- End testimonial item -->
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
-
         </div>
-
     </section><!-- End Testimonials Section -->
 
     <!-- ======= F.A.Q Section ======= -->
@@ -957,14 +915,10 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
-
             </div>
-
         </div>
-
     </section><!-- End F.A.Q Section -->
 
     <!-- ======= Team Section ======= -->
@@ -974,47 +928,26 @@
 
             <header class="section-header">
                 <h2>Tim</h2>
-                <p>Tim Pekerja Keras Kami</p>
+                <p>Struktur Manajemen</p>
             </header>
 
-            <div class="row gy-4">
+            <div class="row justify-content-center">
 
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                     <div class="member">
                         <div class="member-img">
-                            <img src="{{ asset('/tema/img/team/team-1.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('/tema/img/team/1.png') }}" class="img-fluid" alt="">
                             <div class="social">
-                                <a href="" class="twitter"><i class="bi bi-twitter"></i></a>
-                                <a href="" class="facebook"><i class="bi bi-facebook"></i></a>
-                                <a href="" class="instagram"><i class="bi bi-instagram"></i></a>
-                                <a href="" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                                <a href="https://twitter.com/" class="twitter"><i class="bi bi-twitter"></i></a>
+                                <a href="https://www.facebook.com/" class="facebook"><i class="bi bi-facebook"></i></a>
+                                <a href="https://www.instagram.com/yasir_machmud/" class="instagram"><i
+                                        class="bi bi-instagram"></i></a>
                             </div>
                         </div>
                         <div class="member-info">
-                            <h4>Walter White</h4>
-                            <span>Chief Executive Officer</span>
-                            <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum
-                                exercitationem iure minima enim corporis et voluptate.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="{{ asset('/tema/img/team/team-2.jpg') }}" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href="" class="twitter"><i class="bi bi-twitter"></i></a>
-                                <a href="" class="facebook"><i class="bi bi-facebook"></i></a>
-                                <a href="" class="instagram"><i class="bi bi-instagram"></i></a>
-                                <a href="" class="linkedin"><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-info">
-                            <h4>Sarah Jhonson</h4>
-                            <span>Product Manager</span>
-                            <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit
-                                corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+                            <h4>Yasir Machmud, SE.</h4>
+                            <span>Pemegang Saham</span>
+                            <p>SEMANGAT.</p>
                         </div>
                     </div>
                 </div>
@@ -1022,19 +955,18 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
                     <div class="member">
                         <div class="member-img">
-                            <img src="{{ asset('/tema/img/team/team-3.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('/tema/img/team/2.png') }}" class="img-fluid" alt="">
                             <div class="social">
-                                <a href="" class="twitter"><i class="bi bi-twitter"></i></a>
-                                <a href="" class="facebook"><i class="bi bi-facebook"></i></a>
-                                <a href="" class="instagram"><i class="bi bi-instagram"></i></a>
-                                <a href="" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                                <a href="https://twitter.com/" class="twitter"><i class="bi bi-twitter"></i></a>
+                                <a href="https://www.facebook.com/" class="facebook"><i class="bi bi-facebook"></i></a>
+                                <a href="https://www.instagram.com/andifitri18/" class="instagram"><i
+                                        class="bi bi-instagram"></i></a>
                             </div>
                         </div>
                         <div class="member-info">
-                            <h4>William Anderson</h4>
-                            <span>CTO</span>
-                            <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates
-                                enim aut architecto porro aspernatur molestiae modi.</p>
+                            <h4>Hj. Andi Fitri Ilham</h4>
+                            <span>Komisaris</span>
+                            <p>InsyaAllah Berkah.</p>
                         </div>
                     </div>
                 </div>
@@ -1042,27 +974,23 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
                     <div class="member">
                         <div class="member-img">
-                            <img src="{{ asset('/tema/img/team/team-4.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('/tema/img/team/3.png') }}" class="img-fluid" alt="">
                             <div class="social">
-                                <a href="" class="twitter"><i class="bi bi-twitter"></i></a>
-                                <a href="" class="facebook"><i class="bi bi-facebook"></i></a>
-                                <a href="" class="instagram"><i class="bi bi-instagram"></i></a>
-                                <a href="" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                                <a href="https://twitter.com/" class="twitter"><i class="bi bi-twitter"></i></a>
+                                <a href="https://www.facebook.com/" class="facebook"><i class="bi bi-facebook"></i></a>
+                                <a href="https://www.instagram.com/taufikrusly/" class="instagram"><i
+                                        class="bi bi-instagram"></i></a>
                             </div>
                         </div>
                         <div class="member-info">
-                            <h4>Amanda Jepson</h4>
-                            <span>Accountant</span>
-                            <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid
-                                doloremque ut possimus ipsum officia.</p>
+                            <h4>Taufik Rusly</h4>
+                            <span>Direktur Utama</span>
+                            <p>Kerja, Kerja, Kerja.</p>
                         </div>
                     </div>
                 </div>
-
             </div>
-
         </div>
-
     </section><!-- End Team Section -->
 
     <!-- ======= Recent Blog Posts Section ======= -->
@@ -1109,11 +1037,8 @@
                                 class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
-
             </div>
-
         </div>
-
     </section><!-- End Recent Blog Posts Section -->
 
     <!-- ======= Contact Section ======= -->
@@ -1133,9 +1058,7 @@
             </div><!-- End Google Maps -->
 
             <div class="row gy-4">
-
                 <div class="col-lg-6">
-
                     <div class="row gy-4">
                         <div class="col-md-6">
                             <div class="info-box">
@@ -1169,7 +1092,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="col-lg-6">
@@ -1202,15 +1124,10 @@
 
                                 <button type="submit">Send Message</button>
                             </div>
-
                         </div>
                     </form>
-
                 </div>
-
             </div>
-
         </div>
-
     </section><!-- End Contact Section -->
 @endsection
