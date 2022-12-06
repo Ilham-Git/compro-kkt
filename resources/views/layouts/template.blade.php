@@ -54,7 +54,6 @@
                     <li><a class="nav-link scrollto" href="{{ url('/') }}#pricing">Produk</a></li>
                     <li class="dropdown"><a><span>Lainnya</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="{{ url('/') }}#faq">FAQ</a></li>
                             <li class="dropdown"><a><span>Portfolio</span> <i class="bi bi-chevron-right"></i></a>
                                 <ul>
                                     <li><a href="{{ url('/') }}#portfolio">Gudang</a></li>

@@ -216,49 +216,52 @@
             <div class="row gy-4">
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                    <div class="service-box blue">
-                        <i class="ri-discuss-line icon"></i>
-                        <h3>Unit Pabrik</h3>
-                        <p>Kami memiliki 4 unit pabrik untuk kegiatan produksi.</p>
+                    <div class="service-box orange">
+                        <i class="ri-money-dollar-circle-fill icon"></i>
+                        <h3>Sales Pemasaran</h3>
+                        <p>Kegiatan distribusi didukung dengan 8 orang sales pemasaran yang tersebar di seluruh wilayah
+                            pemasaran.</p>
                         {{-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> --}}
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                    <div class="service-box orange">
-                        <i class="ri-discuss-line icon"></i>
-                        <h3>Pelabuhan Khusus</h3>
-                        <p>Kegiatan distribusi didukung dengan pelabuhan khusus.</p>
+                    <div class="service-box blue">
+                        <i class="ri-truck-fill icon"></i>
+                        <h3>Unit Pengantaran</h3>
+                        <p>Kami memiliki 100 unit mobil untuk kegiatan pengantaran.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                     <div class="service-box green">
-                        <i class="ri-discuss-line icon"></i>
-                        <h3>Unit Power Plant</h3>
-                        <p>Untuk menunjang kegiatan produksi, kami memiliki 2 unit power plant.</p>
+                        <i class="ri-home-4-fill icon"></i>
+                        <h3>Unit Gudang</h3>
+                        <p>Untuk menunjang kegiatan distribusi, kami memiliki 8 unit gudang yang tersebar di setiap wilayah
+                            pemasaran.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                     <div class="service-box red">
-                        <i class="ri-discuss-line icon"></i>
+                        <i class="ri-service-fill icon"></i>
                         <h3>Pengalaman Operasi</h3>
-                        <p>Beroperasi sejak 5 Desember 1960 membuat kaya akan pengalaman.</p>
+                        <p>Beroperasi sejak 29 Desember 2014 membuat kaya akan pengalaman.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                     <div class="service-box purple">
                         <i class="ri-discuss-line icon"></i>
-                        <h3>Unit Packing Plant</h3>
-                        <p>Kegiatan packing ditunjang dengan 11 unit packing plant.</p>
+                        <h3>Akses Toko</h3>
+                        <p>Kegiatan pemesanan produk oleh toko dapat dipermudah dengan penggunaan perangkat lunak akses toko
+                            yang berbasis mobile.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
                     <div class="service-box pink">
-                        <i class="ri-discuss-line icon"></i>
+                        <i class="ri-bar-chart-grouped-fill icon"></i>
                         <h3>Inovasi Untuk Kemajuan</h3>
                         <p>Terus bergerak maju untuk menciptakan inovasi bagi bangsa.</p>
                     </div>
@@ -292,7 +295,7 @@
                             <li class="na">Pharetrdwaa massa</li>
                             <li class="na">Massa ultricies mi</li>
                         </ul> --}}
-                        <a href="{{ url('/') }}#contact" class="btn-buy">Beli Sekarang</a>
+                        <a href="{{ url('/') }}#contact" class="btn-buy">Hubungi Kami</a>
                     </div>
                 </div>
 
@@ -307,7 +310,7 @@
                             <li>Pharetra massa</li>
                             <li class="na">Massa ultricies mi</li>
                         </ul> --}}
-                        <a href="{{ url('/') }}#contact" class="btn-buy">Beli Sekarang</a>
+                        <a href="{{ url('/') }}#contact" class="btn-buy">Hubungi Kami</a>
                     </div>
                 </div>
 
@@ -321,7 +324,7 @@
                             <li>Pharetra massa</li>
                             <li>Massa ultricies mi</li>
                         </ul> --}}
-                        <a href="{{ url('/') }}#contact" class="btn-buy">Beli Sekarang</a>
+                        <a href="{{ url('/') }}#contact" class="btn-buy">Hubungi Kami</a>
                     </div>
                 </div>
 
@@ -335,7 +338,7 @@
                             <li>Pharetra massa</li>
                             <li>Massa ultricies mi</li>
                         </ul> --}}
-                        <a href="{{ url('/') }}#contact" class="btn-buy">Beli Sekarang</a>
+                        <a href="{{ url('/') }}#contact" class="btn-buy">Hubungi Kami</a>
                     </div>
                 </div>
 
@@ -381,12 +384,13 @@
                                 <a href="{{ asset('/tema/img/portfolio/palakka1.png') }}" data-gallery="portfolioGallery"
                                     class="portfokio-lightbox" onmouseover="this.title='Deskripsi';"
                                     title="
-                                    Gudang Palakka 1
+                                    <h3>Gudang Palakka 1</h3>
                                     Alamat gudang Jl. Mt. Haryono, Palakka, Bone &lt;br&gt;
                                     Kapasitas Gudang : 15,000 zak (750 Ton) &lt;br&gt;
                                     Status Gudang : Sewa &lt;br&gt;
                                     Ukuran Gudang : 50 meter x 110 meter &lt;br&gt;
-                                    Handling : Manual
+                                    Handling : Manual &lt;br&gt;
+                                    Koordinat : -4.535786764467986, 120.2930859303791
                                     "><i
                                         class="bi bi-fullscreen"></i></a>
                                 <a data-gallery="portfolioGallery" class="portfokio-lightbox"
@@ -404,30 +408,30 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-soppeng">
                     <div class="portfolio-wrap">
-                        <img src="{{ asset('/tema/img/portfolio/portfolio-2.jpg') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('/tema/img/portfolio/soppeng.png') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Gudang Soppeng</h4>
                             <p>Soppeng</p>
                             <div class="portfolio-links">
-                                <a href="{{ asset('/tema/img/portfolio/portfolio-2.jpg') }}"
-                                    data-gallery="portfolioGallery" class="portfokio-lightbox"
-                                    onmouseover="this.title='Deskripsi';"
+                                <a href="{{ asset('/tema/img/portfolio/soppeng.png') }}" data-gallery="portfolioGallery"
+                                    class="portfokio-lightbox" onmouseover="this.title='Deskripsi';"
                                     title="
-                                    Gudang Soppeng
-                                    Alamat gudang Jl. Mt. Haryono, Palakka, Bone &lt;br&gt;
-                                    Kapasitas Gudang : 15,000 zak (750 Ton) &lt;br&gt;
+                                    <h3>Gudang Soppeng</h3>
+                                    Alamat : Jalan Poros Maros - Soppeng, Takalalla, Tettikengrarae, Kec. Mario Riwawo, Kabupaten Soppeng, Sulawesi Selatan &lt;br&gt;
+                                    Kapasitas Gudang : 3.000 zak &lt;br&gt;
                                     Status Gudang : Sewa &lt;br&gt;
-                                    Ukuran Gudang : 50 meter x 110 meter &lt;br&gt;
-                                    Handling : Manual
+                                    Ukuran Gudang : 5 m x 15 m &lt;br&gt;
+                                    Handling : Manual &lt;br&gt;
+                                    Koordinat : -4.459431593451369, 119.95068102950002
                                     "><i
                                         class="bi bi-fullscreen"></i></a>
                                 <a data-gallery="portfolioGallery" class="portfokio-lightbox"
                                     onmouseover="this.title='Map';"
                                     title='<div class="text-center">
                                         <h2>Map Gudang Soppeng</h2>
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317.75003932326507!2d120.29304312596298!3d-4.535903260003901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf4a55b9f442768f0!2zNMKwMzInMDguOCJTIDEyMMKwMTcnMzUuMSJF!5e0!3m2!1sid!2sid!4v1669946832523!5m2!1sid!2sid" 
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.7397208140055!2d119.94849231463374!3d-4.459426248574578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2064553d90eb9d76!2zNMKwMjcnMzQuMCJTIDExOcKwNTcnMDIuNSJF!5e0!3m2!1sid!2sid!4v1670210034666!5m2!1sid!2sid" 
                                         width="70%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                        </div>'>
+                                    </div>'>
                                     <i class="bi bi-geo-alt"></i></a>
                             </div>
                         </div>
@@ -444,12 +448,13 @@
                                 <a href="{{ asset('/tema/img/portfolio/labuaja.png') }}" data-gallery="portfolioGallery"
                                     class="portfokio-lightbox" onmouseover="this.title='Deskripsi';"
                                     title="
-                                    Gudang Labuaja
+                                    <h3>Gudang Labuaja</h3>
                                     Alamat gudang Desa Labuaja, Kec. Kahu, Bone &lt;br&gt;
                                     Kapasitas Gudang : 3.000 zak (150 Ton) &lt;br&gt;
                                     Status Gudang : Sewa &lt;br&gt;
                                     Ukuran Gudang : 12 meter x 15 meter &lt;br&gt;
-                                    Handling : Manual
+                                    Handling : Manual &lt;br&gt;
+                                    Koordinat : -4.987310967444413, 120.11797295261934
                                     "><i
                                         class="bi bi-fullscreen"></i></a>
                                 <a data-gallery="portfolioGallery" class="portfokio-lightbox"
@@ -466,30 +471,30 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-wajo">
                     <div class="portfolio-wrap">
-                        <img src="{{ asset('/tema/img/portfolio/portfolio-4.jpg') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('/tema/img/portfolio/wajo.png') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Gudang Wajo</h4>
                             <p>Wajo</p>
                             <div class="portfolio-links">
-                                <a href="{{ asset('/tema/img/portfolio/portfolio-4.jpg') }}"
-                                    data-gallery="portfolioGallery" class="portfokio-lightbox"
-                                    onmouseover="this.title='Deskripsi';"
+                                <a href="{{ asset('/tema/img/portfolio/wajo.png') }}" data-gallery="portfolioGallery"
+                                    class="portfokio-lightbox" onmouseover="this.title='Deskripsi';"
                                     title="
-                                    Gudang Wajo
-                                    Alamat gudang Jl. Mt. Haryono, Palakka, Bone &lt;br&gt;
-                                    Kapasitas Gudang : 15,000 zak (750 Ton) &lt;br&gt;
+                                    <h3>Gudang Wajo</h3>
+                                    Alamat : Jalan Poros Sengkang - Sabbangparu, Sompe, Sabbang Paru, Kabupaten Wajo, Sulawesi Selatan 90961 &lt;br&gt;
+                                    Kapasitas Gudang : 3.000 zak &lt;br&gt;
                                     Status Gudang : Sewa &lt;br&gt;
-                                    Ukuran Gudang : 50 meter x 110 meter &lt;br&gt;
-                                    Handling : Manual
+                                    Ukuran Gudang : 12 m x 13 m &lt;br&gt;
+                                    Handling : Manual &lt;br&gt;
+                                    Koordinat : -4.213060485606713, 120.01002926616897
                                     "><i
                                         class="bi bi-fullscreen"></i></a>
                                 <a data-gallery="portfolioGallery" class="portfokio-lightbox"
                                     onmouseover="this.title='Map';"
                                     title='<div class="text-center">
                                         <h2>Map Gudang Wajo</h2>
-                                        <iframe style="border:0; width: 70%; height: 600px;"
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.734409534322!2d119.4440487147639!3d-5.146392453465987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee2c953e021cb%3A0xa5b7f19d36484df5!2sPT%20KOKOH%20KUAT%20TERPERCAYA!5e0!3m2!1sid!2sid!4v1664845165097!5m2!1sid!2sid"
-                                        frameborder="0"></iframe></div>'>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.0368881440745!2d120.00784061463199!3d-4.213055147008204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6d113cff13be468!2zNMKwMTInNDcuMCJTIDEyMMKwMDAnMzYuMSJF!5e0!3m2!1sid!2sid!4v1670210390331!5m2!1sid!2sid" 
+                                        width="70%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>'>
                                     <i class="bi bi-geo-alt"></i></a>
                             </div>
                         </div>
@@ -506,12 +511,13 @@
                                 <a href="{{ asset('/tema/img/portfolio/parepare.png') }}" data-gallery="portfolioGallery"
                                     class="portfokio-lightbox" onmouseover="this.title='Deskripsi';"
                                     title="
-                                    Gudang Parepare
+                                    <h3>Gudang Parepare</h3>
                                     Alamat gudang Jl. Jend. Muh Yamin, Bacukiki, Pare-pare &lt;br&gt;
                                     Kapasitas Gudang : 3,500 zak (175 Ton) &lt;br&gt;
                                     Status Gudang : Sewa &lt;br&gt;
                                     Ukuran Gudang : 10 meter x 15 meter &lt;br&gt;
-                                    Handling : Manual
+                                    Handling : Manual &lt;br&gt;
+                                    Koordinat : -4.004863302950783, 119.66549906296623
                                     "><i
                                         class="bi bi-fullscreen"></i></a>
                                 <a data-gallery="portfolioGallery" class="portfokio-lightbox"
@@ -536,12 +542,13 @@
                                 <a href="{{ asset('/tema/img/portfolio/pinrang.png') }}" data-gallery="portfolioGallery"
                                     class="portfokio-lightbox" onmouseover="this.title='Deskripsi';"
                                     title="
-                                    Gudang Pinrang
+                                    <h3>Gudang Pinrang</h3>
                                     Alamat gudang Desa Barugae, Kec. Duampanua, Pinrang &lt;br&gt;
                                     Kapasitas Gudang : 12.000 zak (600 Ton) &lt;br&gt;
                                     Status Gudang : Sewa &lt;br&gt;
                                     Ukuran Gudang : 9 meter x 24 meter &lt;br&gt;
-                                    Handling : Manual
+                                    Handling : Manual &lt;br&gt;
+                                    Koordinat : -3.570558181575831, 119.53803075579012
                                     "><i
                                         class="bi bi-fullscreen"></i></a>
                                 <a data-gallery="portfolioGallery" class="portfokio-lightbox"
@@ -566,12 +573,13 @@
                                 <a href="{{ asset('/tema/img/portfolio/palakka2.png') }}" data-gallery="portfolioGallery"
                                     class="portfokio-lightbox" onmouseover="this.title='Deskripsi';"
                                     title="
-                                    Gudang Palakka 2
+                                    <h3>Gudang Palakka 2</h3>
                                     Alamat gudang Jl. Mt. Haryono, Palakka, Bone &lt;br&gt;
                                     Kapasitas Gudang : 15,000 zak (750 Ton) &lt;br&gt;
                                     Status Gudang : Sewa &lt;br&gt;
                                     Ukuran Gudang : 65 meter x 100 meter &lt;br&gt;
-                                    Handling : Manual
+                                    Handling : Manual &lt;br&gt;
+                                    Koordinat : -4.535786764467986, 120.2930859303791
                                     "><i
                                         class="bi bi-fullscreen"></i></a>
                                 <a data-gallery="portfolioGallery" class="portfokio-lightbox"
@@ -597,7 +605,7 @@
                                 <a href="{{ asset('/tema/img/portfolio/sidrap.png') }}" data-gallery="portfolioGallery"
                                     class="portfokio-lightbox" onmouseover="this.title='Deskripsi';"
                                     title="
-                                    Gudang Sidrap
+                                    <h3>Gudang Sidrap</h3>
                                     Alamat : Jalan Sejahterah, Kelurahan Majelling, Sidrap &lt;br&gt;
                                     Kapasitas Gudang : 4.200 zak &lt;br&gt;
                                     Status Gudang : Sewa &lt;br&gt;
@@ -627,8 +635,8 @@
         <div class="container" data-aos="fade-up">
 
             <header class="section-header">
-                <h2>Penghargaan</h2>
-                <p>Capaian Penghargaan PT. KKT</p>
+                {{-- <h2>Penghargaan</h2> --}}
+                <p>Capaian Penghargaan</p>
             </header>
 
             <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
@@ -651,7 +659,8 @@
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <h3>
-                                Distributor Penjualan Sulawesi Selatan
+                                Distributor Penjualan Skala<br>
+                                Sulawesi Selatan
                             </h3>
                             <div class="profile">
                                 <img src="{{ asset('/tema/img/testimonials/p2.png') }}" class="testimonial-img"
@@ -665,7 +674,8 @@
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <h3>
-                                Distributor Penjualan Nasional
+                                Distributor Penjualan Skala<br>
+                                Nasional
                             </h3>
                             <div class="profile mt-auto">
                                 <img src="{{ asset('/tema/img/testimonials/p3.png') }}" class="testimonial-img"
@@ -679,7 +689,8 @@
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <h3>
-                                Distributor Penjualan Nasional
+                                Distributor Penjualan Skala<br>
+                                Nasional
                             </h3>
                             <div class="profile mt-auto">
                                 <img src="{{ asset('/tema/img/testimonials/p4.png') }}" class="testimonial-img"
@@ -693,7 +704,8 @@
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <h3>
-                                Distributor Penjualan Sulawesi Selatan
+                                Distributor Penjualan Skala<br>
+                                Sulawesi Selatan
                             </h3>
                             <div class="profile mt-auto">
                                 <img src="{{ asset('/tema/img/testimonials/p5.png') }}" class="testimonial-img"
@@ -707,7 +719,8 @@
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <h3>
-                                Distributor Penjualan Nasional
+                                Distributor Penjualan Skala<br>
+                                Nasional
                             </h3>
                             <div class="profile mt-auto">
                                 <img src="{{ asset('/tema/img/testimonials/p6.png') }}" class="testimonial-img"
@@ -721,7 +734,8 @@
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <h3>
-                                Distributor Penjualan Sulawesi Selatan
+                                Distributor Penjualan Skala<br>
+                                Sulawesi Selatan
                             </h3>
                             <div class="profile mt-auto">
                                 <img src="{{ asset('/tema/img/testimonials/p7.png') }}" class="testimonial-img"
@@ -735,7 +749,8 @@
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <h3>
-                                Distributor Penjualan Nasional
+                                Distributor Penjualan Skala<br>
+                                Nasional
                             </h3>
                             <div class="profile mt-auto">
                                 <img src="{{ asset('/tema/img/testimonials/p8.png') }}" class="testimonial-img"
@@ -749,7 +764,8 @@
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <h3>
-                                Distributor Penjualan Sulawesi Selatan
+                                Distributor Penjualan Skala<br>
+                                Sulawesi Selatan
                             </h3>
                             <div class="profile mt-auto">
                                 <img src="{{ asset('/tema/img/testimonials/p9.png') }}" class="testimonial-img"
@@ -777,7 +793,8 @@
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <h3>
-                                Distributor Penjualan Sulawesi Selatan
+                                Distributor Penjualan Skala<br>
+                                Sulawesi Selatan
                             </h3>
                             <div class="profile mt-auto">
                                 <img src="{{ asset('/tema/img/testimonials/p11.png') }}" class="testimonial-img"
@@ -792,134 +809,6 @@
             </div>
         </div>
     </section><!-- End Testimonials Section -->
-
-    <!-- ======= F.A.Q Section ======= -->
-    <section id="faq" class="faq">
-
-        <div class="container" data-aos="fade-up">
-
-            <header class="section-header">
-                <h2>F.A.Q</h2>
-                <p>Pertanyaan Yang Sering Diajukan</p>
-            </header>
-
-            <div class="row">
-                <div class="col-lg-6">
-                    <!-- F.A.Q List 1-->
-                    <div class="accordion accordion-flush" id="faqlist1">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq-content-1">
-                                    Non consectetur a erat nam at lectus urna duis?
-                                </button>
-                            </h2>
-                            <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                                <div class="accordion-body">
-                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non
-                                    curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus
-                                    non.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq-content-2">
-                                    Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
-                                </button>
-                            </h2>
-                            <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                                <div class="accordion-body">
-                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
-                                    velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec
-                                    pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus
-                                    turpis massa tincidunt dui.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq-content-3">
-                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
-                                </button>
-                            </h2>
-                            <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                                <div class="accordion-body">
-                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
-                                    pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum
-                                    tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna
-                                    molestie at elementum eu facilisis sed odio morbi quis
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-
-                    <!-- F.A.Q List 2-->
-                    <div class="accordion accordion-flush" id="faqlist2">
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq2-content-1">
-                                    Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
-                                </button>
-                            </h2>
-                            <div id="faq2-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
-                                <div class="accordion-body">
-                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
-                                    velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec
-                                    pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus
-                                    turpis massa tincidunt dui.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq2-content-2">
-                                    Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
-                                </button>
-                            </h2>
-                            <div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
-                                <div class="accordion-body">
-                                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est
-                                    ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit
-                                    adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq2-content-3">
-                                    Varius vel pharetra vel turpis nunc eget lorem dolor?
-                                </button>
-                            </h2>
-                            <div id="faq2-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
-                                <div class="accordion-body">
-                                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo
-                                    integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc
-                                    eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
-                                    Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus.
-                                    Nibh tellus molestie nunc non blandit massa enim nec.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><!-- End F.A.Q Section -->
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team">
