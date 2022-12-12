@@ -25,7 +25,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-7 mx-auto">
-                        <div class="flash-message">
+                        {{-- <div class="flash-message">
                             @foreach (['danger', 'warning', 'success', 'info'] as $msg)
                                 @if (Session::has('alert-' . $msg))
                                     <p class="alert aler-{{ $msg }}">
@@ -43,7 +43,8 @@
                                     @endforeach
                                 </ul>
                             </div>
-                        @endif
+                        @endif --}}
+                        @include('error.message')
                         <div class="shadow-lg">
                             <div class="d-flex align-items-center">
                                 <div class="d-none d-md-block d-lg-block">

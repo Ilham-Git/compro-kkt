@@ -16,6 +16,8 @@ use App\Http\Controllers\PengumumanController;
 |
 */
 
+require __DIR__ . '/auth.php';
+
 Route::get('/', [PublicController::class, 'index']);
 Route::get('/berita', [PublicController::class, 'berita']);
 Route::get('/pengumuman', [PublicController::class, 'pengumuman']);
@@ -28,8 +30,8 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'dashboard'], function () {
 
     Route::controller(PengumumanController::class)->group(function () {
         Route::get('/pengumuman', 'index');
-        Route::get('/pengumuman-create', 'save');
-        Route::post('/pengumuman-create', 'create');
+        Route::get('/pengumuman-create', 'create');
+        Route::post('/pengumuman-create', 'save');
         Route::get('/pengumuman/{id}', 'show');
         Route::get('/pengumuman-delete/{id}', 'delete');
         Route::post('/pengumuman/{id}', 'update');
@@ -39,5 +41,3 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'dashboard'], function () {
 Route::get('/dashboard', function () {
     return view('dashboard.index');
 })->middleware(['auth', 'verified'])->name('dashboard');
-
-require __DIR__ . '/auth.php';

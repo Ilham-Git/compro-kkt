@@ -76,17 +76,6 @@
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-
-                        <li>
-                            <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
-                                <i class="bi bi-person"></i>
-                                <span>My Profile</span>
-                            </a>
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-
                         <li>
                             <a class="dropdown-item d-flex align-items-center" href="{{ url('/logout') }}">
                                 <i class="bi bi-box-arrow-right"></i>
@@ -114,24 +103,43 @@
                 </a>
             </li><!-- End Dashboard Nav -->
 
-            <li class="nav-item">
+            {{-- <li class="nav-item">
                 <a class="nav-link" href="{{ url('/dashboard/user') }}">
                     <i class="bi bi-people"></i><span>Kelola Pengguna</span><i class="bi bi-chevron-right ms-auto"></i>
                 </a>
-            </li><!-- End Tables Nav -->
+            </li><!-- End Tables Nav --> --}}
 
             <li class="nav-item">
-                <a class="nav-link" href="{{ url('/dashboard/pengumuman') }}">
-                    <i class="bi bi-megaphone"></i><span>Kelola Pengumuman</span><i
-                        class="bi bi-chevron-right ms-auto"></i>
+                <a class="nav-link collapsed" data-bs-target="#berita-nav" data-bs-toggle="collapse" href="#">
+                    <i class="bi bi-newspaper"></i><span>Kelola Berita</span><i class="bi bi-chevron-down ms-auto"></i>
                 </a>
+                <ul id="berita-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                    <li>
+                        <a href="{{ url('/dashboard/pengumuman') }}">
+                            <i class="bi bi-circle-fill"></i><span>Lihat Berita</span>
+                        </a>
+                    </li>
+                </ul>
             </li><!-- End Charts Nav -->
 
             <li class="nav-item">
-                <a class="nav-link" href="{{ url('/dashboard/berita') }}">
-                    <i class="bi bi-newspaper"></i><span>Kelola Berita</span><i class="bi bi-chevron-right ms-auto"></i>
+                <a class="nav-link collapsed" data-bs-target="#pengumuman-nav" data-bs-toggle="collapse" href="#">
+                    <i class="bi bi-megaphone"></i><span>Kelola Pengumuman</span><i
+                        class="bi bi-chevron-down ms-auto"></i>
                 </a>
-            </li><!-- End Icons Nav -->
+                <ul id="pengumuman-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                    <li>
+                        <a href="{{ url('/dashboard/pengumuman') }}">
+                            <i class="bi bi-circle-fill"></i><span>Lihat Pengumuman</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ url('/dashboard/pengumuman-create') }}">
+                            <i class="bi bi-circle-fill"></i><span>Tambah Pengumuman</span>
+                        </a>
+                    </li>
+                </ul>
+            </li><!-- End Components Nav -->
         </ul>
 
     </aside><!-- End Sidebar-->
@@ -165,6 +173,7 @@
 
     <!-- Template Main JS File -->
     <script src="{{ asset('assets/js/main.js') }}"></script>
+    @yield('dashboard-extrajs')
 
 </body>
 

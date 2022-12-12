@@ -893,36 +893,42 @@
             </header>
 
             <div class="row">
-
                 <div class="col-lg-4">
                     <div class="post-box">
-                        <div class="post-img"><img src="{{ asset('/tema/img/blog/blog-1.jpg') }}" class="img-fluid"
+                        <div class="post-img"><img src="{{ asset('/tema/img/blog/berita1.jpg') }}" class="img-fluid"
                                 alt=""></div>
-                        <span class="post-date">Tue, September 15</span>
-                        <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit</h3>
-                        <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span><i
+                        <span class="post-date">Kamis, 4 November 2021</span>
+                        <h3 class="post-title">Perusahaan Besutan Yasir Mahmud Jadi Distributor Terbesar Ketiga Nasional
+                        </h3>
+                        <a href="https://makassar.tribunnews.com/2021/11/04/perusahaan-besutan-yasir-mahmud-jadi-distributor-terbesar-ketiga-nasional"
+                            class="readmore stretched-link mt-auto"><span>Selengkapnya</span><i
                                 class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
 
                 <div class="col-lg-4">
                     <div class="post-box">
-                        <div class="post-img"><img src="{{ asset('/tema/img/blog/blog-2.jpg') }}" class="img-fluid"
+                        <div class="post-img"><img src="{{ asset('/tema/img/blog/berita2.jpg') }}" class="img-fluid"
                                 alt=""></div>
-                        <span class="post-date">Fri, August 28</span>
-                        <h3 class="post-title">Et repellendus molestiae qui est sed omnis voluptates magnam</h3>
-                        <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span><i
+                        <span class="post-date">Selasa, 02 November 2021</span>
+                        <h3 class="post-title">PT KKT Sabet Distributor Terbaik Nasional HUT ke-53 PT Semen Tonasa
+                        </h3>
+                        <a href="https://makassar.tribunnews.com/2021/11/02/pt-kkp-sabet-distributor-terbaik-nasional-hut-ke-53-pt-semen-tonasa"
+                            class="readmore stretched-link mt-auto"><span>Selengkapnya</span><i
                                 class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
 
+
                 <div class="col-lg-4">
                     <div class="post-box">
-                        <div class="post-img"><img src="{{ asset('/tema/img/blog/blog-3.jpg') }}" class="img-fluid"
+                        <div class="post-img"><img src="{{ asset('/tema/img/blog/berita3.jpg') }}" class="img-fluid"
                                 alt=""></div>
-                        <span class="post-date">Mon, July 11</span>
-                        <h3 class="post-title">Quia assumenda est et veritatis aut quae</h3>
-                        <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span><i
+                        <span class="post-date">Rabu, 26 Juni 2019</span>
+                        <h3 class="post-title">Owner PT Kokoh Kuat ‘Yasir Mahmud’ Kembali Fokus di Dunia Usaha
+                        </h3>
+                        <a href="https://portalmakassar.com/owner-pt-kokoh-kuat-yasir-mahmud-kembali-fokus-di-dunia-usaha/"
+                            class="readmore stretched-link mt-auto"><span>Selengkapnya</span><i
                                 class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
@@ -983,38 +989,11 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6">
-                    <form action="forms/contact.php" method="post" class="php-email-form">
-                        <div class="row gy-4">
-
-                            <div class="col-md-6">
-                                <input type="text" name="name" class="form-control" placeholder="Your Name"
-                                    required>
-                            </div>
-
-                            <div class="col-md-6 ">
-                                <input type="email" class="form-control" name="email" placeholder="Your Email"
-                                    required>
-                            </div>
-
-                            <div class="col-md-12">
-                                <input type="text" class="form-control" name="subject" placeholder="Subject"
-                                    required>
-                            </div>
-
-                            <div class="col-md-12">
-                                <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
-                            </div>
-
-                            <div class="col-md-12 text-center">
-                                <div class="loading">Loading</div>
-                                <div class="error-message"></div>
-                                <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                                <button type="submit">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
+                <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                    <div class="info-box">
+                        <img src="{{ asset('/tema/img/tonasaLogo.png') }}" alt="Logo Tonasa" width="400px"
+                            height="400px">
+                    </div>
                 </div>
             </div>
         </div>
