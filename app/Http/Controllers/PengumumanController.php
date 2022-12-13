@@ -8,9 +8,16 @@ use Illuminate\Support\Facades\DB;
 
 class PengumumanController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $pengumuman = pengumuman::all();
+        if ($request->has('search')) {
+            $pengumuman = Pengumuman::where('judul', 'LIKE', '%' . $request->search . '%')
+                ->orWhere('konten', 'LIKE', '%' . $request->search . '%')
+                ->orWhere('tautan', 'LIKE', '%' . $request->search . '%')
+                ->orWhere('updated_at', 'LIKE', '%' . $request->search . '%')->sortable()->paginate(10);
+        } else {
+            $pengumuman = Pengumuman::sortable()->paginate(10);
+        }
         return view('dashboard.pengumuman.index', compact(['pengumuman']));
     }
     public function create()
@@ -33,7 +40,7 @@ class PengumumanController extends Controller
             $data->save();
 
             Session()->flash('alert-success', 'Pengumuman Berhasil Ditambahkan');
-            return redirect('dashboard/pengumuman/' . $data->id);
+            return redirect('dashboard/pengumuman');
         } catch (\Exception $e) {
             Session()->flash('alert-danger', $e->getMessage());
             return redirect('dashboard/pengumuman-create')->withInput();

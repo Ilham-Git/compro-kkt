@@ -30,6 +30,11 @@
 
     <!-- Template Main CSS File -->
     <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -115,15 +120,24 @@
                 </a>
                 <ul id="berita-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
                     <li>
-                        <a href="{{ url('/dashboard/pengumuman') }}">
+                        <a href="{{ url('/dashboard/berita') }}">
                             <i class="bi bi-circle-fill"></i><span>Lihat Berita</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ url('/dashboard/berita-create') }}">
+                            <i class="bi bi-circle-fill"></i>
+                            <span>
+                                Tambah Berita
+                            </span>
                         </a>
                     </li>
                 </ul>
             </li><!-- End Charts Nav -->
 
             <li class="nav-item">
-                <a class="nav-link collapsed" data-bs-target="#pengumuman-nav" data-bs-toggle="collapse" href="#">
+                <a class="nav-link collapsed" data-bs-target="#pengumuman-nav" data-bs-toggle="collapse"
+                    href="#">
                     <i class="bi bi-megaphone"></i><span>Kelola Pengumuman</span><i
                         class="bi bi-chevron-down ms-auto"></i>
                 </a>

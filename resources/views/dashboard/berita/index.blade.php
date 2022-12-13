@@ -5,7 +5,7 @@
         <div class="card card-info ">
             <div class="card-header">
                 <h3 class="card-title">
-                    <i class="bi bi-table ms-3"></i> Data Pengumuman
+                    <i class="bi bi-table ms-3"></i> Data Berita
                 </h3>
             </div>
             @include('error.message')
@@ -13,10 +13,10 @@
             <div class="card-body">
                 <div class="table-responsive">
                     <div class="ms-2">
-                        <a href="{{ url('/dashboard/pengumuman-create') }}" class="btn btn-primary">
+                        <a href="{{ url('/dashboard/berita-create') }}" class="btn btn-primary">
                             <i class="bi bi-plus-circle"></i> Tambah Data</a>
                         <p></p>
-                        <form method="GET" action="pengumuman/" class="form-inline my-2 my-lg-0 col-md-4">
+                        <form method="GET" action="berita/" class="form-inline my-2 my-lg-0 col-md-4">
                             <div class="input-group">
                                 <input class="form-control mr-sm-2" type="search" name="search" placeholder="Search"
                                     aria-label="Pencarian">
@@ -31,8 +31,8 @@
                         <thead>
                             <tr>
                                 <th>No</th>
-                                <th>@sortablelink('judul', 'Judul Pengumuman')</th>
-                                <th>@sortablelink('konten', 'Konten Pengumuman')</th>
+                                <th>@sortablelink('judul', 'Judul Berita')</th>
+                                <th>@sortablelink('konten', 'Konten Berita')</th>
                                 <th>@sortablelink('tautan', 'Tautan')</th>
                                 <th>@sortablelink('updated_at', 'Tanggal')</th>
                                 <th>Aksi</th>
@@ -42,29 +42,29 @@
                             @php
                                 $no = 1;
                             @endphp
-                            @foreach ($pengumuman as $index => $p)
+                            @foreach ($berita as $index => $b)
                                 <tr>
                                     <td>
-                                        {{ $index + $pengumuman->firstItem() }}
+                                        {{ $index + $berita->firstItem() }}
                                     </td>
                                     <td>
-                                        {{ $p->judul }}
+                                        {{ $b->judul }}
                                     </td>
                                     <td>
-                                        {{ $p->konten }}
+                                        {{ $b->slug }}
                                     </td>
                                     <td>
-                                        {{ $p->tautan }}
+                                        {{ $b->tautan }}
                                     </td>
                                     <td>
-                                        {{ $p->updated_at }}
+                                        {{ $b->updated_at }}
                                     </td>
                                     <td>
-                                        <a href="{{ url('dashboard/pengumuman/' . $p->id) }}" title="Ubah"
+                                        <a href="{{ url('dashboard/berita/' . $b->id) }}" title="Ubah"
                                             class="btn btn-success btn-sm">
                                             <i class="bi bi-pencil-square"></i>
                                         </a>
-                                        <a href="{{ url('dashboard/pengumuman-delete/' . $p->id) }}"
+                                        <a href="{{ url('dashboard/berita-delete/' . $b->id) }}"
                                             onclick="return confirm('Apakah anda yakin hapus data ini ?')" title="Hapus"
                                             class="btn btn-danger btn-sm">
                                             <i class="bi bi-trash"></i>
@@ -75,8 +75,8 @@
                         </tbody>
                         </tfoot>
                     </table>
-                    {{-- {{ $pengumuman->links() }} --}}
-                    <div class="ms-1">{!! $pengumuman->appends(Request::except('page'))->render() !!}</div>
+                    {{-- {{ $berita->links() }} --}}
+                    <div class="ms-1">{!! $berita->appends(Request::except('page'))->render() !!}</div>
                 </div>
             </div>
         </div>

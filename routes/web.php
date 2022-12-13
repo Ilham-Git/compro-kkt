@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PublicController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\PengumumanController;
+use App\Http\Controllers\BeritaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,6 +36,15 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'dashboard'], function () {
         Route::get('/pengumuman/{id}', 'show');
         Route::get('/pengumuman-delete/{id}', 'delete');
         Route::post('/pengumuman/{id}', 'update');
+    });
+
+    Route::controller(BeritaController::class)->group(function () {
+        Route::get('/berita', 'index');
+        Route::get('/berita-create', 'create');
+        Route::post('/berita-create', 'save');
+        Route::get('/berita/{id}', 'show');
+        Route::get('/berita-delete/{id}', 'delete');
+        Route::post('/berita/{id}', 'update');
     });
 });
 
