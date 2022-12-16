@@ -45,29 +45,19 @@
                 <label for="basic-url" class="form-label mt-3">Tautan Pengumuman</label>
                 <div class="col-md-10">
                     <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon3">Contoh: https://example.com/</span>
+                        <span class="input-group-text" id="basic-addon3">https://example.com/</span>
                         <input type="text" name="tautan" class="form-control" id="basic-url" value="{{ $tautan }}"
                             aria-describedby="basic-addon3">
                     </div>
                 </div>
             </div>
             <br>
-            <a href="{{ url('/dashboard/pengumuman-delete/' . $data->id) }}" class="btn btn-danger"
-                onclick="return konfirmasi('Hapus Data?')">Delete</a>
             <button type="submit" class="btn btn-primary">Update</button>
         </form>
     </div>
 @endsection
 
 @section('dashboard-extrajs')
-    {{-- <script src="{{ asset('/vendor/ckeditor/ckeditor.js') }}"></script>
-    <script>
-        ClassicEditor
-            .create(document.querySelector('.ckeditor'))
-            .catch(error => {
-                console.error(error);
-            });
-    </script> --}}
     <script>
         function konfirmasi() {
             var r = confirm('Lanjutkan Update Data?');

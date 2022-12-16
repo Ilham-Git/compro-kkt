@@ -44,6 +44,7 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'dashboard'], function () {
         Route::post('/berita-create', 'save');
         Route::get('/berita/{id}', 'show');
         Route::get('/berita-delete/{id}', 'delete');
+        Route::get('/berita-force-delete/{id}', 'forceDelete');
         Route::post('/berita/{id}', 'update');
     });
 });

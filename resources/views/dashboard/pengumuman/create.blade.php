@@ -45,7 +45,7 @@
                 <label for="basic-url" class="form-label mt-3">Tautan Pengumuman</label>
                 <div class="col-md-10">
                     <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon3">Contoh: https://example.com/</span>
+                        <span class="input-group-text" id="basic-addon3">https://example.com/</span>
                         <input type="text" name="tautan" class="form-control" id="basic-url" value="{{ $tautan }}"
                             aria-describedby="basic-addon3">
                     </div>

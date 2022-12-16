@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Berita;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Storage;
 
 class BeritaController extends Controller
 {
@@ -29,13 +30,21 @@ class BeritaController extends Controller
         $this->validate($request, [
             'judul' => 'required',
             'slug' => 'required',
-            'tautan' => 'nullable',
+            'gambar' => 'mimes:png,jpg,jpeg|image|max:2000',
+            'tautan' => 'nullable|active_url',
         ]);
+
+        if ($request->hasFile('gambar')) {
+            $path = $request->file('gambar')->storeAs('Uploads', 'berita' . time() . '.' . $request->file('gambar')->extension());
+        } else {
+            $path = '';
+        }
 
         try {
             $data = new Berita;
             $data->judul = $request->judul;
             $data->slug = $request->slug;
+            $data->gambar = $path;
             $data->tautan = $request->tautan;
             $data->save();
 
@@ -61,8 +70,15 @@ class BeritaController extends Controller
         $this->validate($request, [
             'judul' => 'required',
             'slug' => 'required',
-            'tautan' => 'nullable',
+            'gambar' => 'mimes:png,jpg,jpeg|image|max:2000',
+            'tautan' => 'nullable|active_url',
         ]);
+
+        if ($request->hasFile('gambar')) {
+            $path = $request->file('gambar')->store('Uploads');
+        } else {
+            $path = '';
+        }
 
         $data = app('App\Models\Berita')->cariBerita($id);
 
@@ -72,12 +88,17 @@ class BeritaController extends Controller
         }
 
         try {
-            DB::transaction(function () use ($request, &$data) {
-                $data->judul = $request->judul;
-                $data->slug = $request->slug;
-                $data->tautan = $request->tautan;
-                $data->save();
-            });
+            $data = new Berita;
+            $pathGambar = $data->gambar;
+            if ($pathGambar != null || $pathGambar != '') {
+                Storage::delete($pathGambar);
+            }
+
+            $data->judul = $request->judul;
+            $data->slug = $request->slug;
+            $data->gambar = $path;
+            $data->tautan = $request->tautan;
+            $data->save();
 
             Session()->flash('alert-success', 'berita Berhasil Diupdate');
             return redirect('dashboard/berita');
@@ -91,7 +112,7 @@ class BeritaController extends Controller
         $data = app('App\Models\Berita')->cariBerita($id);
 
         if (empty($data)) {
-            Session()->flash('alert-danger', 'berita Tidak Ditemukan');
+            Session()->flash('alert-danger', 'Berita Tidak Ditemukan');
             return redirect('dasboard/berita');
         }
 
@@ -100,7 +121,24 @@ class BeritaController extends Controller
                 $data->delete();
             });
 
-            Session()->flash('alert-success', 'berita Berhasil Dihapus');
+            Session()->flash('alert-success', 'Berita Berhasil Dihapus');
+            return redirect('dashboard/berita');
+        } catch (\Exception $e) {
+            Session()->flash('alert-danger', $e->getMessage());
+            return redirect('dashboard/berita/' . $data->id);
+        }
+    }
+    public function forceDelete($id)
+    {
+        try {
+            $data = app('App\Models\Berita')->cariBerita($id);
+            $pathGambar = $data->gambar;
+            if ($pathGambar != null || $pathGambar != '') {
+                Storage::delete($pathGambar);
+            }
+            app('App\Models\Berita')->cariBerita($id)->forceDelete();
+
+            Session()->flash('alert-success', 'Berita Berhasil Dihapus Permanen');
             return redirect('dashboard/berita');
         } catch (\Exception $e) {
             Session()->flash('alert-danger', $e->getMessage());

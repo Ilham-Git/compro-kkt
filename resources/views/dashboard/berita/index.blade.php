@@ -34,6 +34,7 @@
                                 <th>@sortablelink('judul', 'Judul Berita')</th>
                                 <th>@sortablelink('konten', 'Konten Berita')</th>
                                 <th>@sortablelink('tautan', 'Tautan')</th>
+                                <th>Gambar</th>
                                 <th>@sortablelink('updated_at', 'Tanggal')</th>
                                 <th>Aksi</th>
                             </tr>
@@ -55,6 +56,10 @@
                                     </td>
                                     <td>
                                         {{ $b->tautan }}
+                                    </td>
+                                    <td>
+                                        <img src="{{ asset('storage/' . $b->gambar) }}" alt="Gambar" class="img-thumbnail"
+                                            style="width:100px">
                                     </td>
                                     <td>
                                         {{ $b->updated_at }}
