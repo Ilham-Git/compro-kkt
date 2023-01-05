@@ -884,54 +884,28 @@
 
     <!-- ======= Recent Blog Posts Section ======= -->
     <section id="recent-blog-posts" class="recent-blog-posts">
-
         <div class="container" data-aos="fade-up">
 
             <header class="section-header">
                 <h2>Berita</h2>
                 <p>Postingan Berita Terbaru</p>
             </header>
-
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="post-box">
-                        <div class="post-img"><img src="{{ asset('/tema/img/blog/berita1.jpg') }}" class="img-fluid"
-                                alt=""></div>
-                        <span class="post-date">Kamis, 4 November 2021</span>
-                        <h3 class="post-title">Perusahaan Besutan Yasir Mahmud Jadi Distributor Terbesar Ketiga Nasional
-                        </h3>
-                        <a href="https://makassar.tribunnews.com/2021/11/04/perusahaan-besutan-yasir-mahmud-jadi-distributor-terbesar-ketiga-nasional"
-                            class="readmore stretched-link mt-auto"><span>Selengkapnya</span><i
-                                class="bi bi-arrow-right"></i></a>
+                @foreach ($newBerita as $newB)
+                    <div class="col-lg-4">
+                        <div class="post-box">
+                            <div class="post-img"><img src="{{ asset('storage/' . $newB->gambar) }}" class="img-fluid"
+                                    style="width:800px" alt="Berita"></div>
+                            <span
+                                class="post-date">{{ \Carbon\Carbon::parse($newB->created_at)->isoFormat('dddd, D MMMM Y') }}</span>
+                            <h3 class="post-title">{{ $newB->judul }}
+                            </h3>
+                            <a href="{{ $newB->tautan }}"
+                                class="readmore stretched-link mt-auto"><span>Selengkapnya</span><i
+                                    class="bi bi-arrow-right"></i></a>
+                        </div>
                     </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="post-box">
-                        <div class="post-img"><img src="{{ asset('/tema/img/blog/berita2.jpg') }}" class="img-fluid"
-                                alt=""></div>
-                        <span class="post-date">Selasa, 02 November 2021</span>
-                        <h3 class="post-title">PT KKT Sabet Distributor Terbaik Nasional HUT ke-53 PT Semen Tonasa
-                        </h3>
-                        <a href="https://makassar.tribunnews.com/2021/11/02/pt-kkp-sabet-distributor-terbaik-nasional-hut-ke-53-pt-semen-tonasa"
-                            class="readmore stretched-link mt-auto"><span>Selengkapnya</span><i
-                                class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-4">
-                    <div class="post-box">
-                        <div class="post-img"><img src="{{ asset('/tema/img/blog/berita3.jpg') }}" class="img-fluid"
-                                alt=""></div>
-                        <span class="post-date">Rabu, 26 Juni 2019</span>
-                        <h3 class="post-title">Owner PT Kokoh Kuat ‘Yasir Mahmud’ Kembali Fokus di Dunia Usaha
-                        </h3>
-                        <a href="https://portalmakassar.com/owner-pt-kokoh-kuat-yasir-mahmud-kembali-fokus-di-dunia-usaha/"
-                            class="readmore stretched-link mt-auto"><span>Selengkapnya</span><i
-                                class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </section><!-- End Recent Blog Posts Section -->
