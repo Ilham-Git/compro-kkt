@@ -1,11 +1,9 @@
 @php
     if (old()) {
         $judul = old('judul');
-        $slug = old('slug');
         $tautan = old('tautan');
     } else {
         $judul = null;
-        $slug = null;
         $tautan = null;
     }
 @endphp
@@ -37,23 +35,6 @@
                             </div>
                         @enderror
                         <label for="floatingInput">Judul Berita</label>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-10">
-                    <div class="form-floating">
-                        <textarea name="slug"
-                            class="form-control @error('slug')
-                        is-invalid
-                    @enderror"
-                            placeholder="Slug" id="floatingTextarea2" style="height: 100px">{!! $slug !!}</textarea>
-                        @error('slug')
-                            <div class="invalid-feedback">
-                                {{ $message }}
-                            </div>
-                        @enderror
-                        <label for="floatingTextarea2">Slug Berita</label>
                     </div>
                 </div>
             </div>

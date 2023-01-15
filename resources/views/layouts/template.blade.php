@@ -10,6 +10,10 @@
 
     <meta content="" name="keywords">
 
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
     <!-- Favicons -->
     <link href="{{ asset('/tema/img/favicon.png') }}" rel="icon">
     <link href="{{ asset('/tema/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
@@ -61,10 +65,13 @@
                                 </ul>
                             </li>
                             <li><a href="{{ url('/berita') }}">Berita</a></li>
-                            <li><a href="{{ url('/pengumuman') }}">Pengumuman</a></li>
                         </ul>
                     </li>
                     <li><a class="nav-link scrollto" href="{{ url('/') }}#contact">Kontak</a></li>
+                    <li>
+                        <a class="navlink scrollto" href="#" data-bs-toggle="modal" data-bs-target="#myModal"><i
+                                class="bi bi-megaphone-fill" style="font-size: 1.3rem"></i></a>
+                    </li>
                     <li>
                         <a class="getstarted scrollto" href="{{ url('/login') }}">Login</a>
                     </li>
@@ -74,6 +81,40 @@
 
         </div>
     </header><!-- End Header -->
+
+    <!-- Modal Popup-->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fw-bold">PENGUMUMAN</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    @foreach ($newPengumuman as $newP)
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        <a href="{{ $newP->tautan }}">{{ $newP->judul }}</a>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        {{ $newP->konten }}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    @endforeach
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal Popup-->
 
     @yield('hero')
 
@@ -106,10 +147,12 @@
                     <div class="col-lg-2 col-6 footer-links">
                         <h4>Link Kami</h4>
                         <ul>
-                            <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}">Beranda</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}">Beranda</a>
+                            </li>
                             <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}#about">Tentang</a>
                             </li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}#services">Layanan</a>
+                            <li><i class="bi bi-chevron-right"></i> <a
+                                    href="{{ url('/') }}#services">Layanan</a>
                             </li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
@@ -168,6 +211,9 @@
 
     <!-- Template Main JS File -->
     <script src="{{ asset('/tema/js/main.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
     @yield('ekstrajs')
 
 </body>

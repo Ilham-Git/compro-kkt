@@ -13,7 +13,6 @@ class BeritaController extends Controller
     {
         if ($request->has('search')) {
             $berita = Berita::where('judul', 'LIKE', '%' . $request->search . '%')
-                ->orWhere('slug', 'LIKE', '%' . $request->search . '%')
                 ->orWhere('tautan', 'LIKE', '%' . $request->search . '%')
                 ->orWhere('updated_at', 'LIKE', '%' . $request->search . '%')->sortable()->paginate(10);
         } else {
@@ -29,9 +28,8 @@ class BeritaController extends Controller
     {
         $this->validate($request, [
             'judul' => 'required',
-            'slug' => 'required',
-            'gambar' => 'mimes:png,jpg,jpeg|image|max:2000',
-            'tautan' => 'nullable|active_url',
+            'gambar' => 'mimes:png,jpg,jpeg|image|max:2000|required',
+            'tautan' => 'nullable|active_url|required',
         ]);
 
         if ($request->hasFile('gambar')) {
@@ -43,7 +41,6 @@ class BeritaController extends Controller
         try {
             $data = new Berita;
             $data->judul = $request->judul;
-            $data->slug = $request->slug;
             $data->gambar = $path;
             $data->tautan = $request->tautan;
             $data->save();
@@ -69,7 +66,6 @@ class BeritaController extends Controller
     {
         $this->validate($request, [
             'judul' => 'required',
-            'slug' => 'required',
             'gambar' => 'mimes:png,jpg,jpeg|image|max:2000',
             'tautan' => 'nullable|active_url',
         ]);
@@ -95,7 +91,6 @@ class BeritaController extends Controller
             }
 
             $data->judul = $request->judul;
-            $data->slug = $request->slug;
             $data->gambar = $path;
             $data->tautan = $request->tautan;
             $data->save();

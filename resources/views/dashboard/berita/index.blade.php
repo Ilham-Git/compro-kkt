@@ -30,9 +30,8 @@
                     <table id="example1" class="table table-bordered table-striped text-center align-middle p-0">
                         <thead>
                             <tr>
-                                <th>No</th>
+                                <th>@sortablelink('id', 'No')</th>
                                 <th>@sortablelink('judul', 'Judul Berita')</th>
-                                <th>@sortablelink('konten', 'Konten Berita')</th>
                                 <th>@sortablelink('tautan', 'Tautan')</th>
                                 <th>Gambar</th>
                                 <th>@sortablelink('updated_at', 'Tanggal')</th>
@@ -50,9 +49,6 @@
                                     </td>
                                     <td>
                                         {{ $b->judul }}
-                                    </td>
-                                    <td>
-                                        {{ $b->slug }}
                                     </td>
                                     <td>
                                         {{ $b->tautan }}

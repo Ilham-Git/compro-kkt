@@ -290,11 +290,6 @@
                         <h3 style="color: #07d5c0;">Semen Tonasa</h3>
                         <div class="price">50<span>kg</span></div>
                         <img src="{{ asset('/tema/img/Tonasa50.png') }}" class="img-fluid" alt="">
-                        {{-- <ul>
-                            <li>Nulla at volutpat dola</li>
-                            <li class="na">Pharetrdwaa massa</li>
-                            <li class="na">Massa ultricies mi</li>
-                        </ul> --}}
                         <a href="{{ url('/') }}#contact" class="btn-buy">Hubungi Kami</a>
                     </div>
                 </div>
@@ -305,11 +300,6 @@
                         <h3 style="color: #65c600;">Semen Tonasa</h3>
                         <div class="price">40<span>kg</span></div>
                         <img src="{{ asset('/tema/img/Tonasa40.png') }}" class="img-fluid" alt="">
-                        {{-- <ul>
-                            <li>Nulla at volutpat dola</li>
-                            <li>Pharetra massa</li>
-                            <li class="na">Massa ultricies mi</li>
-                        </ul> --}}
                         <a href="{{ url('/') }}#contact" class="btn-buy">Hubungi Kami</a>
                     </div>
                 </div>
@@ -319,11 +309,6 @@
                         <h3 style="color: #ff901c;">Semen Dynamix</h3>
                         <div class="price">50<span>kg</span></div>
                         <img src="{{ asset('/tema/img/Dynamix50.png') }}" class="img-fluid" alt="">
-                        {{-- <ul>
-                            <li>Nulla at volutpat dola</li>
-                            <li>Pharetra massa</li>
-                            <li>Massa ultricies mi</li>
-                        </ul> --}}
                         <a href="{{ url('/') }}#contact" class="btn-buy">Hubungi Kami</a>
                     </div>
                 </div>
@@ -333,11 +318,6 @@
                         <h3 style="color: #ff0071;">Semen Dynamix</h3>
                         <div class="price">40<span>kg</span></div>
                         <img src="{{ asset('/tema/img/Dynamix40.png') }}" class="img-fluid" alt="">
-                        {{-- <ul>
-                            <li>Nulla at volutpat dola</li>
-                            <li>Pharetra massa</li>
-                            <li>Massa ultricies mi</li>
-                        </ul> --}}
                         <a href="{{ url('/') }}#contact" class="btn-buy">Hubungi Kami</a>
                     </div>
                 </div>

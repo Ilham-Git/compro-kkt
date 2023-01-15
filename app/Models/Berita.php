@@ -14,7 +14,7 @@ class Berita extends Model
     protected $table = 'beritas';
     protected $primaryKey = 'id';
     public $sortable = [
-        'judul', 'slug', 'tautan', 'updated_at'
+        'id', 'judul', 'tautan', 'updated_at'
     ];
 
     public function cariBerita($id)
