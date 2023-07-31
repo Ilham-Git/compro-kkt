@@ -75,6 +75,9 @@
                     <li>
                         <a class="getstarted scrollto" href="{{ url('/login') }}">Login</a>
                     </li>
+                    <li>
+                        <a class="getstarted scrollto" href="{{ url('/sales') }}">Sales</a>
+                    </li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -82,39 +85,7 @@
         </div>
     </header><!-- End Header -->
 
-    <!-- Modal Popup-->
-    <div class="modal" id="myModal">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="modal-title fw-bold">PENGUMUMAN</h3>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body">
-                    @foreach ($newPengumuman as $newP)
-                        <div class="accordion accordion-flush" id="accordionFlushExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="flush-headingOne">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                        aria-controls="flush-collapseOne">
-                                        <a href="{{ $newP->tautan }}">{{ $newP->judul }}</a>
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        {{ $newP->konten }}
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    @endforeach
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Modal Popup-->
+    @yield('pengumuman')
 
     @yield('hero')
 
@@ -151,8 +122,7 @@
                             </li>
                             <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}#about">Tentang</a>
                             </li>
-                            <li><i class="bi bi-chevron-right"></i> <a
-                                    href="{{ url('/') }}#services">Layanan</a>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}#services">Layanan</a>
                             </li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>

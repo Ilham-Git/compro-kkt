@@ -27,4 +27,8 @@ class PublicController extends Controller
     {
         return view('tentang');
     }
+    public function sales()
+    {
+        return view('sales.login');
+    }
 }

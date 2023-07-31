@@ -23,6 +23,7 @@ Route::get('/', [PublicController::class, 'index']);
 Route::get('/berita', [PublicController::class, 'berita']);
 Route::get('/pengumuman', [PublicController::class, 'pengumuman']);
 Route::get('/tentang', [PublicController::class, 'tentang']);
+Route::get('/sales', [PublicController::class, 'sales']);
 
 Route::group(['middleware' => ['auth'], 'prefix' => 'dashboard'], function () {
     Route::get('/', [DashboardController::class, 'index']);
